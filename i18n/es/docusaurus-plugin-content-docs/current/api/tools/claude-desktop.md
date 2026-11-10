@@ -36,6 +36,11 @@ En la sección **Connection** de la ventana de configuración, pon **Inference p
 
 La aplicación añade por su cuenta `/v1/messages` y `/v1/models` a la URL base, así que no añadas `/v1` aquí.
 
+Cuando lo hayas rellenado, puedes hacer clic en **Test connection** para comprobar la conexión antes de continuar.
+
+![Ventana de inferencia de terceros de Claude Desktop: sección Connection con Gateway seleccionado y los datos de la API de ZAI rellenados](/img/tools/claude-desktop-gateway-light.png#light-only)
+![Ventana de inferencia de terceros de Claude Desktop: sección Connection con Gateway seleccionado y los datos de la API de ZAI rellenados](/img/tools/claude-desktop-gateway-dark.png#dark-only)
+
 ## Elegir modelos {#models}
 
 Por defecto, la aplicación llama a `GET /v1/models` para descubrir los modelos y solo pone en el selector los ID que reconoce como modelos Claude. Si el modelo que quieres no está en el selector, añade a la lista de modelos de la ventana de configuración un ID de modelo que ofrezca `messages`, escrito exactamente igual.

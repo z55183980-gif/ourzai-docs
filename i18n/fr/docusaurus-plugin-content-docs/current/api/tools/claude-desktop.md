@@ -36,6 +36,11 @@ Dans la section **Connection** de la fenêtre de configuration, réglez **Infere
 
 L'application ajoute elle-même `/v1/messages` et `/v1/models` à l'URL de base : n'ajoutez donc pas `/v1` ici.
 
+Une fois les champs remplis, vous pouvez cliquer sur **Test connection** pour vérifier la connexion avant de continuer.
+
+![Fenêtre d'inférence tierce de Claude Desktop : section Connection avec Gateway sélectionné et les informations de l'API ZAI renseignées](/img/tools/claude-desktop-gateway-light.png#light-only)
+![Fenêtre d'inférence tierce de Claude Desktop : section Connection avec Gateway sélectionné et les informations de l'API ZAI renseignées](/img/tools/claude-desktop-gateway-dark.png#dark-only)
+
 ## Choisir les modèles {#models}
 
 Par défaut, l'application appelle `GET /v1/models` pour découvrir les modèles et ne place dans le sélecteur que les ID qu'elle reconnaît comme des modèles Claude. Si le modèle voulu n'apparaît pas dans le sélecteur, ajoutez à la liste des modèles de la fenêtre de configuration un ID de modèle qui propose `messages`, saisi tel quel.

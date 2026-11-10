@@ -36,6 +36,11 @@ Trong phần **Connection** của cửa sổ cấu hình, đặt **Inference pro
 
 Ứng dụng tự nối `/v1/messages` và `/v1/models` vào sau base URL, nên không thêm `/v1` ở đây.
 
+Sau khi điền xong, bạn có thể nhấn **Test connection** để kiểm tra kết nối trước khi tiếp tục.
+
+![Cửa sổ suy luận bên thứ ba của Claude Desktop: phần Connection đã chọn Gateway và điền thông tin ZAI API](/img/tools/claude-desktop-gateway-light.png#light-only)
+![Cửa sổ suy luận bên thứ ba của Claude Desktop: phần Connection đã chọn Gateway và điền thông tin ZAI API](/img/tools/claude-desktop-gateway-dark.png#dark-only)
+
 ## Chọn model {#models}
 
 Theo mặc định, ứng dụng gọi `GET /v1/models` để tìm model và chỉ đưa vào bộ chọn model những ID mà nó nhận ra là model Claude. Nếu model bạn muốn không có trong bộ chọn, hãy thêm thủ công một ID model hỗ trợ `messages` vào danh sách model trong cửa sổ cấu hình, nhập đúng nguyên văn.
