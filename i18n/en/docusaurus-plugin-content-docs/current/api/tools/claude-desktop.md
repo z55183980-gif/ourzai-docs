@@ -36,6 +36,11 @@ In the **Connection** section of the configuration window, set **Inference provi
 
 The app appends `/v1/messages` and `/v1/models` to the base URL itself, so do not add `/v1` here.
 
+Once filled in, you can click **Test connection** to check the connection before moving on.
+
+![Claude Desktop third-party inference window: the Connection section with Gateway selected and the ZAI API details filled in](/img/tools/claude-desktop-gateway-light.png#light-only)
+![Claude Desktop third-party inference window: the Connection section with Gateway selected and the ZAI API details filled in](/img/tools/claude-desktop-gateway-dark.png#dark-only)
+
 ## Choose models {#models}
 
 By default the app calls `GET /v1/models` to discover models, and only puts model IDs it recognizes as Claude models in the model picker. If the model you want is not in the picker, add a model ID that offers `messages` to the model list in the configuration window, entered exactly.

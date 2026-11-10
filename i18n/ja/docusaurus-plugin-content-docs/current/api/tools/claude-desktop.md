@@ -36,6 +36,11 @@ Claude デスクトップアプリ（macOS、Windows）は、サードパーテ�
 
 アプリが Base URL の後ろに `/v1/messages` と `/v1/models` を自動で付け加えるため、ここでは `/v1` を付けないでください。
 
+入力したら、**Test connection** をクリックして接続を確認してから次に進めます。
+
+![Claude Desktop のサードパーティ推論設定ウィンドウ：Connection セクションで Gateway を選び、ZAI API の接続情報を入力した状態](/img/tools/claude-desktop-gateway-light.png#light-only)
+![Claude Desktop のサードパーティ推論設定ウィンドウ：Connection セクションで Gateway を選び、ZAI API の接続情報を入力した状態](/img/tools/claude-desktop-gateway-dark.png#dark-only)
+
 ## モデルを選ぶ {#models}
 
 アプリは既定で `GET /v1/models` を呼び出してモデルを検出し、Claude のモデルとして認識できる ID だけをモデル選択メニューに表示します。使いたいモデルが表示されない場合は、設定ウィンドウのモデル一覧に `messages` を提供するモデル ID をそのまま手動で追加してください。

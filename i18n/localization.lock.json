@@ -85,7 +85,7 @@
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "docs/api/tools/claude-desktop.md",
-    "sha256": "8835f615a4ad1b2c817e5a26a431b25fa24f0e6213ad552fba83942ca537a00a"
+    "sha256": "cedc40a13e4e61bef0175befc4e6b4d9e84e9d56ee1d7118c3233c9c37943c5b"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "docs/api/tools/cline.md",
@@ -265,7 +265,7 @@
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "5d2df28c669e96ca3469b8624cc194f668f3a354bb398496fff0d52e776cfd35"
+    "sha256": "ca23140b26b878b8ca149c208e3acf010c7efbc2708c6ede838cdd27a681a0ce"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -445,7 +445,7 @@
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "5d2df28c669e96ca3469b8624cc194f668f3a354bb398496fff0d52e776cfd35"
+    "sha256": "ca23140b26b878b8ca149c208e3acf010c7efbc2708c6ede838cdd27a681a0ce"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -625,7 +625,7 @@
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "5d2df28c669e96ca3469b8624cc194f668f3a354bb398496fff0d52e776cfd35"
+    "sha256": "ca23140b26b878b8ca149c208e3acf010c7efbc2708c6ede838cdd27a681a0ce"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -805,7 +805,7 @@
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "5d2df28c669e96ca3469b8624cc194f668f3a354bb398496fff0d52e776cfd35"
+    "sha256": "ca23140b26b878b8ca149c208e3acf010c7efbc2708c6ede838cdd27a681a0ce"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",

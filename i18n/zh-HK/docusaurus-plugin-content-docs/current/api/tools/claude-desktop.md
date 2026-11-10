@@ -36,6 +36,11 @@ Claude 桌面應用程式（macOS、Windows）可以透過「第三方推理」�
 
 應用程式會在 Base URL 後面自己拼接 `/v1/messages` 和 `/v1/models`，所以這裡不要加 `/v1`。
 
+填好後可以點擊 **Test connection** 測試連線，再繼續下面的步驟。
+
+![Claude 桌面版第三方推理設定視窗：Connection 部分已選 Gateway 並填好 ZAI API 的連線資料](/img/tools/claude-desktop-gateway-light.png#light-only)
+![Claude 桌面版第三方推理設定視窗：Connection 部分已選 Gateway 並填好 ZAI API 的連線資料](/img/tools/claude-desktop-gateway-dark.png#dark-only)
+
 ## 選擇模型 {#models}
 
 應用程式預設請求 `GET /v1/models` 自動發現模型，只把能識別為 Claude 型號的模型 ID 放進模型選擇器。選擇器裡沒有你要的模型時，在設定視窗的模型列表中手動加入開放 `messages` 的模型 ID，原樣填寫。

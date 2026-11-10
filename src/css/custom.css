@@ -1206,3 +1206,9 @@ table tr:last-child td {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Theme-specific screenshots: append #light-only or #dark-only to a Markdown image URL. */
+[data-theme="light"] img[src$="#dark-only"],
+[data-theme="dark"] img[src$="#light-only"] {
+  display: none;
+}
