@@ -18,6 +18,7 @@ Pages 项目名与 GitHub 仓库名无须相同。
 
 `.github/workflows/docs.yml` 在 PR 上运行全部检查；推送或合并到 `main` 后运行同样的检查并发布。
 也可以在 Actions 页面选择 Documentation，针对 `main` 手动运行。
+每天 04:00（新加坡时间）保留全量检查，定时检查不触发生产发布。
 生产发布按分支串行执行，外部 PR 不会获得部署凭据或运行发布步骤。
 
 仓库 Actions Secrets 必须配置 `CLOUDFLARE_API_TOKEN` 和 `CLOUDFLARE_ACCOUNT_ID`。
