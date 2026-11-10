@@ -22,5 +22,9 @@
   "sidebar.docsSidebar.category.模型接入": {
     "message": "Integración por modelo",
     "description": "The label for category '模型接入' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.编程工具接入": {
+    "message": "Herramientas de programación",
+    "description": "The label for category '编程工具接入' in sidebar 'docsSidebar'"
   }
 }

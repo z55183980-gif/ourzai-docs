@@ -38,7 +38,7 @@ La page **Tarification** (Pricing) de la console indique le prix en dollars amé
 
 ## Puis-je l'utiliser dans Cursor, Cline, Claude Code ou Codex ? {#tools}
 
-Oui. Pour savoir où chaque outil attend la base_url, la clé et le modèle, voir [Utiliser avec les outils de développement](./tools.md).
+Oui. Pour savoir où chaque outil attend la base_url, la clé et le modèle, voir [Utiliser avec les outils de développement](./tools/tools.md).
 
 ## Qui contacter en cas de problème ? {#support}
 

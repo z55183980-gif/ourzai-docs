@@ -31,7 +31,13 @@
   "docs/api/models/grok-imagine-video-1.5.md": "9a676cbb08c7628819ad51d7d9a96baf53644a5553818dcb1520d1848520b9d1",
   "docs/api/models/cosyvoice2-0.5b.md": "e4632086c5f234b0b136345fca196536702de66f2b34c9b59c3c94edb39bbe05",
   "docs/api/models/claude-sonnet-5-5.md": "2add331aede648e13c264237d0a07e8ebb5c2a3c0da399f49547bd2f8100e541",
-  "docs/api/faq.md": "9a624503bd7db949ef96f1c7261b672e6ee1f85862678d70fa434440fd7c960f",
-  "docs/api/tools.md": "c5e08be82e606f17b669e887124d9a54229acc33e19a5898cd3b3cc16cac7cc8",
-  "README.md": "2131f497bf93757e5dfa633ed1e66afe75299fb011245c0e34f26f037aedf70d"
+  "docs/api/faq.md": "e946a22358000f513771765b9d75cc825339cb4ca2c3bc83339cc18c7b44bab7",
+  "README.md": "2131f497bf93757e5dfa633ed1e66afe75299fb011245c0e34f26f037aedf70d",
+  "docs/api/tools/claude-code.md": "f059f32f3c6951f6d7f1d570f5038ae2d08f7d320a45d501adaf7aea95ecf7b5",
+  "docs/api/tools/claude-desktop.md": "8835f615a4ad1b2c817e5a26a431b25fa24f0e6213ad552fba83942ca537a00a",
+  "docs/api/tools/cline.md": "a9a8e41614b29eb19bab5647a2dd598a67a034897286c65167193e7913a655a7",
+  "docs/api/tools/codex-app.md": "2b32d362878a5539229f98e5d577d4f29fa89e934e334c5a2dd365feb973a8ea",
+  "docs/api/tools/codex-cli.md": "57f5ec65cb0c62125fde859a0cf8ca52d9fb528e165998e1594374432e390edc",
+  "docs/api/tools/cursor.md": "94b6bac3f51046b64853f7a8df1b415993025ba986c5d1b966cb85f918ef566f",
+  "docs/api/tools/tools.md": "de615ce84cfd94e6af4b1786e3c72a338c9f91b0b18008866966b1a0295babda"
 }
