@@ -38,7 +38,7 @@ La página **Precios** (Pricing) de la consola muestra el precio en dólares est
 
 ## ¿Puedo usarla en Cursor, Cline, Claude Code o Codex? {#tools}
 
-Sí. Para saber dónde introduce cada herramienta la base_url, la clave y el modelo, consulta [Usar con herramientas de programación](./tools.md).
+Sí. Para saber dónde introduce cada herramienta la base_url, la clave y el modelo, consulta [Usar con herramientas de programación](./tools/tools.md).
 
 ## ¿A quién contacto si algo falla? {#support}
 

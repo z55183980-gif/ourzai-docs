@@ -38,7 +38,7 @@ ZAI 开发者 API 是一个兼容 OpenAI 接口格式的模型网关：一把 AP
 
 ## 能在 Cursor、Cline、Claude Code、Codex 里用吗？ {#tools}
 
-可以。各工具填写 base_url、密钥和模型的位置，见[在编程工具中使用](./tools.md)。
+可以。各工具填写 base_url、密钥和模型的位置，见[在编程工具中使用](./tools/tools.md)。
 
 ## 遇到问题找谁？ {#support}
 

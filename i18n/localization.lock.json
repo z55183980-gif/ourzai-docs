@@ -9,7 +9,7 @@
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/faq.md": {
     "source": "docs/api/faq.md",
-    "sha256": "9a624503bd7db949ef96f1c7261b672e6ee1f85862678d70fa434440fd7c960f"
+    "sha256": "e946a22358000f513771765b9d75cc825339cb4ca2c3bc83339cc18c7b44bab7"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
     "source": "docs/api/models/claude-opus-5-5.md",
@@ -79,9 +79,33 @@
     "source": "docs/api/quickstart.md",
     "sha256": "36b4d2bab10c02e8a21fd819bb439b6b1dd991493c8d933d84d41ae53046449f"
   },
-  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools.md": {
-    "source": "docs/api/tools.md",
-    "sha256": "c5e08be82e606f17b669e887124d9a54229acc33e19a5898cd3b3cc16cac7cc8"
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
+    "source": "docs/api/tools/claude-code.md",
+    "sha256": "f059f32f3c6951f6d7f1d570f5038ae2d08f7d320a45d501adaf7aea95ecf7b5"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
+    "source": "docs/api/tools/claude-desktop.md",
+    "sha256": "8835f615a4ad1b2c817e5a26a431b25fa24f0e6213ad552fba83942ca537a00a"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
+    "source": "docs/api/tools/cline.md",
+    "sha256": "a9a8e41614b29eb19bab5647a2dd598a67a034897286c65167193e7913a655a7"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
+    "source": "docs/api/tools/codex-app.md",
+    "sha256": "2b32d362878a5539229f98e5d577d4f29fa89e934e334c5a2dd365feb973a8ea"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
+    "source": "docs/api/tools/codex-cli.md",
+    "sha256": "57f5ec65cb0c62125fde859a0cf8ca52d9fb528e165998e1594374432e390edc"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
+    "source": "docs/api/tools/cursor.md",
+    "sha256": "94b6bac3f51046b64853f7a8df1b415993025ba986c5d1b966cb85f918ef566f"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
+    "source": "docs/api/tools/tools.md",
+    "sha256": "de615ce84cfd94e6af4b1786e3c72a338c9f91b0b18008866966b1a0295babda"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/index.mdx": {
     "source": "docs/index.mdx",
@@ -153,7 +177,7 @@
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current.json": {
     "source": "i18n/zh-Hans/docusaurus-plugin-content-docs/current.json",
-    "sha256": "6949d64c4bea46c9c847166727a38226a23f9225df9f54361686151c9fb21159"
+    "sha256": "9bd77ad2a9a0c0dc4fef3821a9afb476422121e081fb151f47866660e0ee706a"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/endpoints.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/endpoints.md",
@@ -165,7 +189,7 @@
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/faq.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/faq.md",
-    "sha256": "5c6b636a94c5f9e61151a5d7ad069b92d7dda8875b07af199725cdd4e1e6f04f"
+    "sha256": "f49d27b6e8ed562863e882e4a269b41207424a3181898adfbfcda144ab09d158"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md",
@@ -235,9 +259,33 @@
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/quickstart.md",
     "sha256": "9a94004afdc346b360e0d960335e44ac3aa72cef039402409e9a89aade94956c"
   },
-  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools.md": {
-    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools.md",
-    "sha256": "8a141146393e762c4f66b5f6cea9a7a1e78087b5c94ed2d122f2a48e9cb282b5"
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
+    "sha256": "ea059959ff2425bb2373a2d7b32d41bd364fe292a68d0e27042783f82834268a"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
+    "sha256": "5d2df28c669e96ca3469b8624cc194f668f3a354bb398496fff0d52e776cfd35"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
+    "sha256": "3731285322c619e8d67aef3a0dbd942836b901db0a7517888678e5f9641fc232"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-app.md",
+    "sha256": "ff3d8eb9fe2d72608e56a0a90c080d6a2a2e5ba01873521d71c2ff38a2ce3c95"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md",
+    "sha256": "c0d136490b9435c42ccd09fb7d98e9153e1877eb2d242efb59e4121591a9b9eb"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cursor.md",
+    "sha256": "54c9ea274391418f46e485cdc5bdad267ac6da2494dd38db58cd5be7af60d5b3"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
+    "sha256": "191898f9e7dc1916016be0bd69b34b667e0c99eef8530ce1305570ed233229f4"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/index.mdx": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
@@ -309,7 +357,7 @@
   },
   "i18n/fr/docusaurus-plugin-content-docs/current.json": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current.json",
-    "sha256": "0dbd3b8ccc84307266ee3e00a9b6baacb394762dffe46321fccd5ed0b6baa64f"
+    "sha256": "d3700b670be06decf90fd568419bb2f4b406afcb65825bb9ba7990eb4d78c948"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/endpoints.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/endpoints.md",
@@ -321,7 +369,7 @@
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/faq.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/faq.md",
-    "sha256": "5c6b636a94c5f9e61151a5d7ad069b92d7dda8875b07af199725cdd4e1e6f04f"
+    "sha256": "f49d27b6e8ed562863e882e4a269b41207424a3181898adfbfcda144ab09d158"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md",
@@ -391,9 +439,33 @@
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/quickstart.md",
     "sha256": "9a94004afdc346b360e0d960335e44ac3aa72cef039402409e9a89aade94956c"
   },
-  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools.md": {
-    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools.md",
-    "sha256": "8a141146393e762c4f66b5f6cea9a7a1e78087b5c94ed2d122f2a48e9cb282b5"
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
+    "sha256": "ea059959ff2425bb2373a2d7b32d41bd364fe292a68d0e27042783f82834268a"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
+    "sha256": "5d2df28c669e96ca3469b8624cc194f668f3a354bb398496fff0d52e776cfd35"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
+    "sha256": "3731285322c619e8d67aef3a0dbd942836b901db0a7517888678e5f9641fc232"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-app.md",
+    "sha256": "ff3d8eb9fe2d72608e56a0a90c080d6a2a2e5ba01873521d71c2ff38a2ce3c95"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md",
+    "sha256": "c0d136490b9435c42ccd09fb7d98e9153e1877eb2d242efb59e4121591a9b9eb"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cursor.md",
+    "sha256": "54c9ea274391418f46e485cdc5bdad267ac6da2494dd38db58cd5be7af60d5b3"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
+    "sha256": "191898f9e7dc1916016be0bd69b34b667e0c99eef8530ce1305570ed233229f4"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/index.mdx": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
@@ -465,7 +537,7 @@
   },
   "i18n/vi/docusaurus-plugin-content-docs/current.json": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current.json",
-    "sha256": "0dbd3b8ccc84307266ee3e00a9b6baacb394762dffe46321fccd5ed0b6baa64f"
+    "sha256": "d3700b670be06decf90fd568419bb2f4b406afcb65825bb9ba7990eb4d78c948"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/endpoints.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/endpoints.md",
@@ -477,7 +549,7 @@
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/faq.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/faq.md",
-    "sha256": "5c6b636a94c5f9e61151a5d7ad069b92d7dda8875b07af199725cdd4e1e6f04f"
+    "sha256": "f49d27b6e8ed562863e882e4a269b41207424a3181898adfbfcda144ab09d158"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md",
@@ -547,9 +619,33 @@
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/quickstart.md",
     "sha256": "9a94004afdc346b360e0d960335e44ac3aa72cef039402409e9a89aade94956c"
   },
-  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools.md": {
-    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools.md",
-    "sha256": "8a141146393e762c4f66b5f6cea9a7a1e78087b5c94ed2d122f2a48e9cb282b5"
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
+    "sha256": "ea059959ff2425bb2373a2d7b32d41bd364fe292a68d0e27042783f82834268a"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
+    "sha256": "5d2df28c669e96ca3469b8624cc194f668f3a354bb398496fff0d52e776cfd35"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
+    "sha256": "3731285322c619e8d67aef3a0dbd942836b901db0a7517888678e5f9641fc232"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-app.md",
+    "sha256": "ff3d8eb9fe2d72608e56a0a90c080d6a2a2e5ba01873521d71c2ff38a2ce3c95"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md",
+    "sha256": "c0d136490b9435c42ccd09fb7d98e9153e1877eb2d242efb59e4121591a9b9eb"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cursor.md",
+    "sha256": "54c9ea274391418f46e485cdc5bdad267ac6da2494dd38db58cd5be7af60d5b3"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
+    "sha256": "191898f9e7dc1916016be0bd69b34b667e0c99eef8530ce1305570ed233229f4"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/index.mdx": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
@@ -621,7 +717,7 @@
   },
   "i18n/ja/docusaurus-plugin-content-docs/current.json": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current.json",
-    "sha256": "0dbd3b8ccc84307266ee3e00a9b6baacb394762dffe46321fccd5ed0b6baa64f"
+    "sha256": "d3700b670be06decf90fd568419bb2f4b406afcb65825bb9ba7990eb4d78c948"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/endpoints.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/endpoints.md",
@@ -633,7 +729,7 @@
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/faq.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/faq.md",
-    "sha256": "5c6b636a94c5f9e61151a5d7ad069b92d7dda8875b07af199725cdd4e1e6f04f"
+    "sha256": "f49d27b6e8ed562863e882e4a269b41207424a3181898adfbfcda144ab09d158"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md",
@@ -703,9 +799,33 @@
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/quickstart.md",
     "sha256": "9a94004afdc346b360e0d960335e44ac3aa72cef039402409e9a89aade94956c"
   },
-  "i18n/es/docusaurus-plugin-content-docs/current/api/tools.md": {
-    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools.md",
-    "sha256": "8a141146393e762c4f66b5f6cea9a7a1e78087b5c94ed2d122f2a48e9cb282b5"
+  "i18n/es/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
+    "sha256": "ea059959ff2425bb2373a2d7b32d41bd364fe292a68d0e27042783f82834268a"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
+    "sha256": "5d2df28c669e96ca3469b8624cc194f668f3a354bb398496fff0d52e776cfd35"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
+    "sha256": "3731285322c619e8d67aef3a0dbd942836b901db0a7517888678e5f9641fc232"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-app.md",
+    "sha256": "ff3d8eb9fe2d72608e56a0a90c080d6a2a2e5ba01873521d71c2ff38a2ce3c95"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md",
+    "sha256": "c0d136490b9435c42ccd09fb7d98e9153e1877eb2d242efb59e4121591a9b9eb"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cursor.md",
+    "sha256": "54c9ea274391418f46e485cdc5bdad267ac6da2494dd38db58cd5be7af60d5b3"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
+    "sha256": "191898f9e7dc1916016be0bd69b34b667e0c99eef8530ce1305570ed233229f4"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/index.mdx": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
@@ -777,6 +897,6 @@
   },
   "i18n/es/docusaurus-plugin-content-docs/current.json": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current.json",
-    "sha256": "0dbd3b8ccc84307266ee3e00a9b6baacb394762dffe46321fccd5ed0b6baa64f"
+    "sha256": "d3700b670be06decf90fd568419bb2f4b406afcb65825bb9ba7990eb4d78c948"
   }
 }

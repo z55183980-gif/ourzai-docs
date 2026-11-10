@@ -38,7 +38,7 @@ Trang **Pricing** trong console liệt kê giá bằng đô la Mỹ của từng
 
 ## Có dùng được trong Cursor, Cline, Claude Code hoặc Codex không? {#tools}
 
-Có. Để biết mỗi công cụ nhập base_url, key và model ở đâu, xem [Dùng với công cụ lập trình](./tools.md).
+Có. Để biết mỗi công cụ nhập base_url, key và model ở đâu, xem [Dùng với công cụ lập trình](./tools/tools.md).
 
 ## Gặp sự cố thì liên hệ ai? {#support}
 

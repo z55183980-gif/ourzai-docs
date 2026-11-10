@@ -38,7 +38,7 @@ The **Pricing** page in the console lists each model's US dollar price along wit
 
 ## Can I use it in Cursor, Cline, Claude Code, or Codex? {#tools}
 
-Yes. For where each tool takes the base_url, key, and model, see [Use with Coding Tools](./tools.md).
+Yes. For where each tool takes the base_url, key, and model, see [Use with Coding Tools](./tools/tools.md).
 
 ## Who do I contact when something goes wrong? {#support}
 

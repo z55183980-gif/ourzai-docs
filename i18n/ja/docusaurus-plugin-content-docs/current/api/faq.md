@@ -38,7 +38,7 @@ ZAI 開発者 API は、OpenAI の API 形式に準拠したモデルゲート�
 
 ## Cursor、Cline、Claude Code、Codex で使えますか？ {#tools}
 
-はい。各ツールで base_url、キー、モデルを入力する場所は、[コーディングツールで使う](./tools.md)を参照してください。
+はい。各ツールで base_url、キー、モデルを入力する場所は、[コーディングツールで使う](./tools/tools.md)を参照してください。
 
 ## 問題が起きたときの連絡先は？ {#support}
 

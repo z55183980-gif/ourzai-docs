@@ -22,5 +22,9 @@
   "sidebar.docsSidebar.category.模型接入": {
     "message": "按型號接入",
     "description": "The label for category '模型接入' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.编程工具接入": {
+    "message": "編程工具接入",
+    "description": "The label for category '编程工具接入' in sidebar 'docsSidebar'"
   }
 }
