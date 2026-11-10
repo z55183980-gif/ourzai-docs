@@ -1,0 +1,128 @@
+---
+id: index
+slug: /
+title: "ZAI 說明文件中樞"
+sidebar_label: "說明文件概覽"
+description: "ZAI 平台說明文件：賬戶、遇見 Zai AI 陪伴、ZaiDrama 創作與開發者 API 接入指南。"
+sidebar_position: 0
+hide_title: true
+hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
+update_docs: engine-b
+
+---
+
+import Link from "@docusaurus/Link";
+import CodeBlock from "@theme/CodeBlock";
+
+<div className="docsStart">
+  <header className="docsStartHero">
+    <p className="docsStartEyebrow">{"ZAI 說明文件"}</p>
+    <h1>{"開始使用 ZAI"}</h1>
+    <p className="docsStartLead">{"陪伴、創作，或接入 API。選一個產品，從快速開始讀起。"}</p>
+  </header>
+
+  <section className="docsStartProducts" aria-label="產品">
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/zai-app-icon-192.png" alt="" width="40" height="40" />
+        <div>
+          <h2>{"遇見 Zai"}</h2>
+          <p className="docsStartProductHost">zai.gg</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"AI 夥伴。聊日常、語音通話，選擇形象與相處關係，長期記憶可以隨時查看和管理。"}</p>
+      <Link className="docsStartProductPrimary" to="/zai/getting-started">{"快速開始 →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/zai/chat-and-voice">{"聊天與語音"}</Link></li>
+        <li><Link to="/zai/memory-and-data">{"記憶與數據管理"}</Link></li>
+        <li><Link to="/zai/plans-and-usage">{"會員與用量"}</Link></li>
+      </ul>
+    </article>
+
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/zaidrama-mark-192.png" alt="" width="40" height="40" />
+        <div>
+          <h2>{"ZaiDrama"}</h2>
+          <p className="docsStartProductHost">zaidrama.com</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"AI 影片創作工作台。把想法、小說或產品介紹做成短劇、廣告或講解影片。"}</p>
+      <Link className="docsStartProductPrimary" to="/zaidrama/getting-started">{"入門教學 →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/zaidrama/workflows">{"創作流程"}</Link></li>
+        <li><Link to="/zaidrama/canvas">{"創意畫布"}</Link></li>
+        <li><Link to="/zaidrama/models">{"模型與能力"}</Link></li>
+      </ul>
+    </article>
+
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/console-mark.svg" alt="" width="40" height="40" />
+        <div>
+          <h2>{"API"}</h2>
+          <p className="docsStartProductHost">api.ourzai.com/v1</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"兼容 OpenAI 的接口格式。一把密鑰、一個 base_url，調用對話、圖像、語音和影片模型。"}</p>
+      <Link className="docsStartProductPrimary" to="/api/quickstart">{"快速開始 →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/api/endpoints">{"接口與能力"}</Link></li>
+        <li><Link to="/api/errors">{"錯誤、限制與用量"}</Link></li>
+        <li><Link to="https://ourzai.com/console">{"開發者控制台"}</Link></li>
+      </ul>
+    </article>
+  </section>
+
+  <section className="docsStartSection docsStartRequest" aria-labelledby="docs-start-request">
+    <div className="docsStartRequestCopy">
+      <h2 id="docs-start-request">{"發出第一個 API 請求"}</h2>
+      <p>{"在開發者控制台新建 API 密鑰，把 base_url 改成 https://api.ourzai.com/v1，現有的 OpenAI SDK 或 HTTP 代碼就能直接調用。按實際用量從美元餘額扣費。"}</p>
+      <Link to="/api/quickstart#python">{"Python、Node.js 範例 →"}</Link>
+    </div>
+    <div className="docsStartRequestCode">
+      <CodeBlock language="bash">{`curl https://api.ourzai.com/v1/chat/completions \\
+  -H "Authorization: Bearer $ZAI_API_KEY" \\
+  -H "Content-Type: application/json" \\
+  -d '{
+    "model": "<模型名>",
+    "messages": [{"role": "user", "content": "你好"}]
+  }'`}</CodeBlock>
+    </div>
+  </section>
+
+  <section className="docsStartSection" aria-labelledby="docs-start-account">
+    <h2 id="docs-start-account">{"賬戶與餘額"}</h2>
+    <div className="docsStartFacts">
+      <Link className="docsStartFact" to="/platform/account">
+        <h3>{"一個平台賬戶"}</h3>
+        <p>{"用電郵或 Google 註冊一次，遇見 Zai、ZaiDrama 和開發者控制台都能登入。"}</p>
+        <span>{"賬戶、餘額與支援 →"}</span>
+      </Link>
+      <Link className="docsStartFact" to="/platform/overview#credits">
+        <h3>{"美元餘額"}</h3>
+        <p>{"API 與 ZaiDrama 共用。在控制台或 ZaiDrama 增值，進入同一個餘額，到賬不會過期。"}</p>
+        <span>{"平台概覽 →"}</span>
+      </Link>
+      <Link className="docsStartFact" to="/zai/plans-and-usage">
+        <h3>{"會員"}</h3>
+        <p>{"遇見 Zai 的會員、語音和通話額度另行購買，與平台餘額互不相通。"}</p>
+        <span>{"會員與用量 →"}</span>
+      </Link>
+    </div>
+  </section>
+
+  <section className="docsStartHelp" aria-label="幫助">
+    <div>
+      <h2>{"還有問題？"}</h2>
+      <p>{"官網首頁的 Zai 會根據本站說明文件回答問題；需要人工處理時寫信到 support@ourzai.com。"}</p>
+    </div>
+    <ul>
+      <li><Link to="/zai/faq">{"遇見 Zai 常見問題"}</Link></li>
+      <li><Link to="/zaidrama/faq">{"ZaiDrama 常見問題"}</Link></li>
+      <li><Link to="/platform/account#support">{"聯絡與支援"}</Link></li>
+    </ul>
+  </section>
+</div>

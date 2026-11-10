@@ -1,0 +1,782 @@
+{
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/endpoints.md": {
+    "source": "docs/api/endpoints.md",
+    "sha256": "b533350802457ae65669abadbbd6d7e642cac67b0a14d1b24da0601d22090379"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/errors.md": {
+    "source": "docs/api/errors.md",
+    "sha256": "1b727f5bb15d6afc784e9cabbfee1888209cc2806d58c51a0a7aa334da3853de"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/faq.md": {
+    "source": "docs/api/faq.md",
+    "sha256": "9a624503bd7db949ef96f1c7261b672e6ee1f85862678d70fa434440fd7c960f"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
+    "source": "docs/api/models/claude-opus-5-5.md",
+    "sha256": "310548220cfc5239c86e974ef8520dbcca6973da020127cabc5d61b3be66440b"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/claude-sonnet-5-5.md": {
+    "source": "docs/api/models/claude-sonnet-5-5.md",
+    "sha256": "2add331aede648e13c264237d0a07e8ebb5c2a3c0da399f49547bd2f8100e541"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/cosyvoice2-0.5b.md": {
+    "source": "docs/api/models/cosyvoice2-0.5b.md",
+    "sha256": "e4632086c5f234b0b136345fca196536702de66f2b34c9b59c3c94edb39bbe05"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/gpt-5.6-sol.md": {
+    "source": "docs/api/models/gpt-5.6-sol.md",
+    "sha256": "9c8416fcf6307cf83245fc62bb59e9ea5f5576149221145ccd58f225afb1b630"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/gpt-6-astra.md": {
+    "source": "docs/api/models/gpt-6-astra.md",
+    "sha256": "c00054d3504ed52f12597295424c25d63ea1956bab106449d920df307826ad14"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/gpt-6-sol.md": {
+    "source": "docs/api/models/gpt-6-sol.md",
+    "sha256": "eade71e0f1b88751225d2f3e440d14969a15335a1f58a70987ce4f5c072608e7"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-flare.md": {
+    "source": "docs/api/models/gpt-image-2.5-flare.md",
+    "sha256": "16c8b16aacb02ee01c6b74de7df138f6d5b5e93382ee12b0ccd25fe5a61bcf40"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-sunburst.md": {
+    "source": "docs/api/models/gpt-image-2.5-sunburst.md",
+    "sha256": "911a129155348e65d83eb35832f13c7f3c1a6e025b090103cf0254dbee2bd5ac"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.md": {
+    "source": "docs/api/models/gpt-image-2.md",
+    "sha256": "62ab07d5c1e5513e1ff34c23c14d185fa9071de0302fbe429a4354d60aef3e1e"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-2.0.md": {
+    "source": "docs/api/models/grok-imagine-image-2.0.md",
+    "sha256": "2384ee570da5618e9f2ab150e98297cb29ea0a8072f3232d2d27d8ffc658e136"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-quality.md": {
+    "source": "docs/api/models/grok-imagine-image-quality.md",
+    "sha256": "c1a652e262d17e0f99d8dd9499ad5feeb2ec64fe919304957b3afd5096890232"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image.md": {
+    "source": "docs/api/models/grok-imagine-image.md",
+    "sha256": "cf2f3a0e952a216254191d4ba2375503cce3d7d6c95c2ebe6f90b25e900e3808"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video-1.5.md": {
+    "source": "docs/api/models/grok-imagine-video-1.5.md",
+    "sha256": "9a676cbb08c7628819ad51d7d9a96baf53644a5553818dcb1520d1848520b9d1"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video.md": {
+    "source": "docs/api/models/grok-imagine-video.md",
+    "sha256": "2db3f2667e4b7395a32bb5b1032722491499ac0c9e28a93c0d02bb0eb04c40c2"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models/minimax-h3.md": {
+    "source": "docs/api/models/minimax-h3.md",
+    "sha256": "7506313fcc41c8bc95ca4f0672874586cbc9d231c6f2c64450fb49fd0c76e4aa"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/models.md": {
+    "source": "docs/api/models.md",
+    "sha256": "bcf66ee5ddd326f0d36c191116533810f061beaf6afb4d0e505336e8763c54cd"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/quickstart.md": {
+    "source": "docs/api/quickstart.md",
+    "sha256": "36b4d2bab10c02e8a21fd819bb439b6b1dd991493c8d933d84d41ae53046449f"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools.md": {
+    "source": "docs/api/tools.md",
+    "sha256": "c5e08be82e606f17b669e887124d9a54229acc33e19a5898cd3b3cc16cac7cc8"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/index.mdx": {
+    "source": "docs/index.mdx",
+    "sha256": "7a98276349091a487fb9f07a0ec14d7b8563e4bc126ed3fca70fbd67aa550fff"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/platform/account.md": {
+    "source": "docs/platform/account.md",
+    "sha256": "7e42d91416ef7e10f43a178798f0479e8f4094450f73c758a41ee8260b11cc88"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/platform/overview.md": {
+    "source": "docs/platform/overview.md",
+    "sha256": "f25e786c2a1dddb16899e3a13659a195414501df498bf9ca3ed87f2324df93b3"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zai/appearance-and-relationship.md": {
+    "source": "docs/zai/appearance-and-relationship.md",
+    "sha256": "4b14d58d4a34d277b434624828f7dcd9a96a4c4ca82f8cddab9a9802955b8e3f"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zai/chat-and-voice.md": {
+    "source": "docs/zai/chat-and-voice.md",
+    "sha256": "c3fa980ccd4ed619d0d012df811809679f565cb74df4c02bdf2fb0ca3c6e3f1a"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zai/faq.md": {
+    "source": "docs/zai/faq.md",
+    "sha256": "827cf87dac34c72554368d122d5ae09779cae995d81c9b73a8f3e5fd3867e232"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zai/getting-started.md": {
+    "source": "docs/zai/getting-started.md",
+    "sha256": "f52b1da0ac2f10d57c2e3e3505151cc716bd221f925cf844287fbff8c69457a3"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zai/memory-and-data.md": {
+    "source": "docs/zai/memory-and-data.md",
+    "sha256": "d30b19ae7ae2422d8235221e089e1197b980455dfa6fde1a03a52012f22b0e9b"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zai/plans-and-usage.md": {
+    "source": "docs/zai/plans-and-usage.md",
+    "sha256": "1a90b79585246b43e37f77330d8a7ecd9b4f01b55798332213402ad43697de1a"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zaidrama/canvas.md": {
+    "source": "docs/zaidrama/canvas.md",
+    "sha256": "0a648788e952823bde99fa6cd25677fc5fc25b96d310dbfbc4b8b41c9a80b626"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
+    "source": "docs/zaidrama/faq.md",
+    "sha256": "708654c6ed6c8e972c8ffcad4be382e4220437e3d5f0ca48db3cfee9914f1d49"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
+    "source": "docs/zaidrama/getting-started.md",
+    "sha256": "7a2cca012a095cdbb3b824c4009eaa3c47df6d2f319d332388fe668e4795022a"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zaidrama/models.md": {
+    "source": "docs/zaidrama/models.md",
+    "sha256": "412b6338307464ceb70ae2279ceb35e896cf0b439f5a56c8b44f9936356600f5"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/zaidrama/workflows.md": {
+    "source": "docs/zaidrama/workflows.md",
+    "sha256": "4fc0878df65408c3059f17cbe54a9376b7ed8ed4daa57501c4d568be610120f6"
+  },
+  "i18n/zh-HK/code.json": {
+    "source": "i18n/zh-Hans/code.json",
+    "sha256": "c963d7287dfa23628312f748181d2d5f9535709ca5d4cc5a7a551aec25696f1e"
+  },
+  "i18n/zh-HK/docusaurus-theme-classic/navbar.json": {
+    "source": "i18n/zh-Hans/docusaurus-theme-classic/navbar.json",
+    "sha256": "cd1a10df43496e94b26db3b6a32b3c56705a7a584e7ca4261d9af6c838958bc3"
+  },
+  "i18n/zh-HK/docusaurus-theme-classic/footer.json": {
+    "source": "i18n/zh-Hans/docusaurus-theme-classic/footer.json",
+    "sha256": "fb179159f4c69dffccf3360d8241753d8a6ad5d439f95bf441c129476b8832ce"
+  },
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current.json": {
+    "source": "i18n/zh-Hans/docusaurus-plugin-content-docs/current.json",
+    "sha256": "6949d64c4bea46c9c847166727a38226a23f9225df9f54361686151c9fb21159"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/endpoints.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/endpoints.md",
+    "sha256": "0d5018f05ab1d06464cc16a5e42da9fc70ebc76fe8a74495a7a6852356ae9242"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/errors.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/errors.md",
+    "sha256": "242672be21d5abaedca4579b4274c325ef58a9279df540d67f3256e93cb01c04"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/faq.md",
+    "sha256": "5c6b636a94c5f9e61151a5d7ad069b92d7dda8875b07af199725cdd4e1e6f04f"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md",
+    "sha256": "26058b0715357a83c48cabcdbf0ebb755cca9ac6939441bba6bda8601f0bad8f"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/claude-sonnet-5-5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-sonnet-5-5.md",
+    "sha256": "15b4396831e258f1e980c9a61d0b1ec87bbf0877d3c0ae5e6a25a69292b4d318"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/cosyvoice2-0.5b.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/cosyvoice2-0.5b.md",
+    "sha256": "098f57e3d8a0e653227da9917765b29787124132c012635a1294c3a0ff541426"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/gpt-5.6-sol.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-5.6-sol.md",
+    "sha256": "c7e8bb19a3cca7f3921e393fb5da9efe672ee8d9097be9aad1f6ba647df27f9a"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/gpt-6-astra.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-6-astra.md",
+    "sha256": "4ffce24897df8276cba8bfbbbaf80c7b93555a238c64d69de146cc6dc6c31f24"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/gpt-6-sol.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-6-sol.md",
+    "sha256": "7e082e742e1c1620810d5eb8a0209646c0f6b7b32df0257ecf8a81022d29c45f"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-flare.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-flare.md",
+    "sha256": "1504ea735f024e3320509f98eb28e94e9cf8940aeed1bf4e38297efae6947520"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-sunburst.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-sunburst.md",
+    "sha256": "483c74635c0d2866816e82a358e2917e94860da4ba59fdeaa34d5754bbd061d4"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.md",
+    "sha256": "01c1910e711b5bf344e3a66c140677f421d1943b38abc02eaa46709eb916fa1c"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-2.0.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-2.0.md",
+    "sha256": "1802fd848f35071d68f6ba4d5a9927036b137b1eb91e3055851ba46d9a154f0a"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-quality.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-quality.md",
+    "sha256": "e09c4f09a3544b6344becdc2ce75ae65f236d34feaad3930975b0cfbf7d3e1c6"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image.md",
+    "sha256": "6c92db161cd31986fd92fb3555575b97307d19711e1ebb34b2b83f48d9fa1129"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video-1.5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video-1.5.md",
+    "sha256": "16aef1a51484ad0d27feb66422178cdea2abad7708525f2d47c6ba7d53bdd777"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video.md",
+    "sha256": "26a58e541da543b2d05c1217d0c343d9c9bfe66d3d171d4eac97de24fe3f0c9f"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models/minimax-h3.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/minimax-h3.md",
+    "sha256": "09980c6276852dca42f0124e79ccbb974acac1d1b494924b307e7a53e93ed82a"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/models.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models.md",
+    "sha256": "4a0bb024c87f57bfac38d08542f1248dc2849c5c7c22e6b600cbf1c3752c5e09"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/quickstart.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/quickstart.md",
+    "sha256": "9a94004afdc346b360e0d960335e44ac3aa72cef039402409e9a89aade94956c"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools.md",
+    "sha256": "8a141146393e762c4f66b5f6cea9a7a1e78087b5c94ed2d122f2a48e9cb282b5"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/index.mdx": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
+    "sha256": "583b3e35c4b7dc9a7306ba29e002190038b86a40cb83cc5daa022dc54a44684f"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/platform/account.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/platform/account.md",
+    "sha256": "e2dda89c933b09dfe3c556a5b38e5a0db153abc71e076666b977afa9997f1250"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/platform/overview.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/platform/overview.md",
+    "sha256": "8b5d9b786e2b25e3830debbb92b2bf78109ea228a0176d06b0f57161d4ce42df"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zai/appearance-and-relationship.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/appearance-and-relationship.md",
+    "sha256": "bbe0d52c7771762ed8646c27aea7190a2ea545fdbabcc2e99389a8156fb361ff"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zai/chat-and-voice.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/chat-and-voice.md",
+    "sha256": "32084d57174de03f08725fecced5bf1aa865b2805cb99821353a640cef8ed180"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zai/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/faq.md",
+    "sha256": "d52df69ce32874239c8b27096688e461e442749d52ad6d1d3491c95633554a4a"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zai/getting-started.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/getting-started.md",
+    "sha256": "e5af04a0b7c3c7124b607a6c7b2215bd9c0301e2c1f8ccee2bd26508207aa4a6"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zai/memory-and-data.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/memory-and-data.md",
+    "sha256": "565cb34973ab6a7eea178b31bc93f72d1d27e1a0400de7cb6d8549eff28e9b02"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zai/plans-and-usage.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/plans-and-usage.md",
+    "sha256": "dcc1d38f5bc68eadf4af434ca5f4c3b265f8db5ef4b27fe8965fc1551cac4c39"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zaidrama/canvas.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/canvas.md",
+    "sha256": "05c1d4d643dbb236875d11d66db57fcf776f7fa72498ae6b1e8d620803f91ff7"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/faq.md",
+    "sha256": "8bd27becde5ff62a487666624118461c3b20aa5037d4f9fa4d426ea33f5631fb"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md",
+    "sha256": "06519bfece61cb6db7f4ca52c47c22d15d229a1fe6bd0a853d9a51ed1c1c4388"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zaidrama/models.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/models.md",
+    "sha256": "698c571323aa4c41d748ca866d0f158bb54b577f498bc510b848b6097deefb41"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current/zaidrama/workflows.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/workflows.md",
+    "sha256": "8399f93df13dcf0c1adfaaefa11adcfbd6097949a1ab3730462dbffc8f78ff8b"
+  },
+  "i18n/fr/code.json": {
+    "source": "i18n/en/code.json",
+    "sha256": "2d7c8a3ad144fbdd8ba0bee08f44df89fa4214d7008c1ea8e76f5e3af6d175b8"
+  },
+  "i18n/fr/docusaurus-theme-classic/navbar.json": {
+    "source": "i18n/en/docusaurus-theme-classic/navbar.json",
+    "sha256": "f7581a560e21ced9257da1241c7420459e3bc3264cd87e4feb29cc653c741e28"
+  },
+  "i18n/fr/docusaurus-theme-classic/footer.json": {
+    "source": "i18n/en/docusaurus-theme-classic/footer.json",
+    "sha256": "eb092b84ff0d9ac8664a490b0049f8d5c0605c658668a609ccb489f7d9a0f7c0"
+  },
+  "i18n/fr/docusaurus-plugin-content-docs/current.json": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current.json",
+    "sha256": "0dbd3b8ccc84307266ee3e00a9b6baacb394762dffe46321fccd5ed0b6baa64f"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/endpoints.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/endpoints.md",
+    "sha256": "0d5018f05ab1d06464cc16a5e42da9fc70ebc76fe8a74495a7a6852356ae9242"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/errors.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/errors.md",
+    "sha256": "242672be21d5abaedca4579b4274c325ef58a9279df540d67f3256e93cb01c04"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/faq.md",
+    "sha256": "5c6b636a94c5f9e61151a5d7ad069b92d7dda8875b07af199725cdd4e1e6f04f"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md",
+    "sha256": "26058b0715357a83c48cabcdbf0ebb755cca9ac6939441bba6bda8601f0bad8f"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/claude-sonnet-5-5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-sonnet-5-5.md",
+    "sha256": "15b4396831e258f1e980c9a61d0b1ec87bbf0877d3c0ae5e6a25a69292b4d318"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/cosyvoice2-0.5b.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/cosyvoice2-0.5b.md",
+    "sha256": "098f57e3d8a0e653227da9917765b29787124132c012635a1294c3a0ff541426"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/gpt-5.6-sol.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-5.6-sol.md",
+    "sha256": "c7e8bb19a3cca7f3921e393fb5da9efe672ee8d9097be9aad1f6ba647df27f9a"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/gpt-6-astra.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-6-astra.md",
+    "sha256": "4ffce24897df8276cba8bfbbbaf80c7b93555a238c64d69de146cc6dc6c31f24"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/gpt-6-sol.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-6-sol.md",
+    "sha256": "7e082e742e1c1620810d5eb8a0209646c0f6b7b32df0257ecf8a81022d29c45f"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-flare.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-flare.md",
+    "sha256": "1504ea735f024e3320509f98eb28e94e9cf8940aeed1bf4e38297efae6947520"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-sunburst.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-sunburst.md",
+    "sha256": "483c74635c0d2866816e82a358e2917e94860da4ba59fdeaa34d5754bbd061d4"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.md",
+    "sha256": "01c1910e711b5bf344e3a66c140677f421d1943b38abc02eaa46709eb916fa1c"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-2.0.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-2.0.md",
+    "sha256": "1802fd848f35071d68f6ba4d5a9927036b137b1eb91e3055851ba46d9a154f0a"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-quality.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-quality.md",
+    "sha256": "e09c4f09a3544b6344becdc2ce75ae65f236d34feaad3930975b0cfbf7d3e1c6"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image.md",
+    "sha256": "6c92db161cd31986fd92fb3555575b97307d19711e1ebb34b2b83f48d9fa1129"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video-1.5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video-1.5.md",
+    "sha256": "16aef1a51484ad0d27feb66422178cdea2abad7708525f2d47c6ba7d53bdd777"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video.md",
+    "sha256": "26a58e541da543b2d05c1217d0c343d9c9bfe66d3d171d4eac97de24fe3f0c9f"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models/minimax-h3.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/minimax-h3.md",
+    "sha256": "09980c6276852dca42f0124e79ccbb974acac1d1b494924b307e7a53e93ed82a"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/models.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models.md",
+    "sha256": "4a0bb024c87f57bfac38d08542f1248dc2849c5c7c22e6b600cbf1c3752c5e09"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/quickstart.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/quickstart.md",
+    "sha256": "9a94004afdc346b360e0d960335e44ac3aa72cef039402409e9a89aade94956c"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools.md",
+    "sha256": "8a141146393e762c4f66b5f6cea9a7a1e78087b5c94ed2d122f2a48e9cb282b5"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/index.mdx": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
+    "sha256": "583b3e35c4b7dc9a7306ba29e002190038b86a40cb83cc5daa022dc54a44684f"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/platform/account.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/platform/account.md",
+    "sha256": "e2dda89c933b09dfe3c556a5b38e5a0db153abc71e076666b977afa9997f1250"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/platform/overview.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/platform/overview.md",
+    "sha256": "8b5d9b786e2b25e3830debbb92b2bf78109ea228a0176d06b0f57161d4ce42df"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zai/appearance-and-relationship.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/appearance-and-relationship.md",
+    "sha256": "bbe0d52c7771762ed8646c27aea7190a2ea545fdbabcc2e99389a8156fb361ff"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zai/chat-and-voice.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/chat-and-voice.md",
+    "sha256": "32084d57174de03f08725fecced5bf1aa865b2805cb99821353a640cef8ed180"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zai/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/faq.md",
+    "sha256": "d52df69ce32874239c8b27096688e461e442749d52ad6d1d3491c95633554a4a"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zai/getting-started.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/getting-started.md",
+    "sha256": "e5af04a0b7c3c7124b607a6c7b2215bd9c0301e2c1f8ccee2bd26508207aa4a6"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zai/memory-and-data.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/memory-and-data.md",
+    "sha256": "565cb34973ab6a7eea178b31bc93f72d1d27e1a0400de7cb6d8549eff28e9b02"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zai/plans-and-usage.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/plans-and-usage.md",
+    "sha256": "dcc1d38f5bc68eadf4af434ca5f4c3b265f8db5ef4b27fe8965fc1551cac4c39"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zaidrama/canvas.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/canvas.md",
+    "sha256": "05c1d4d643dbb236875d11d66db57fcf776f7fa72498ae6b1e8d620803f91ff7"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/faq.md",
+    "sha256": "8bd27becde5ff62a487666624118461c3b20aa5037d4f9fa4d426ea33f5631fb"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md",
+    "sha256": "06519bfece61cb6db7f4ca52c47c22d15d229a1fe6bd0a853d9a51ed1c1c4388"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zaidrama/models.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/models.md",
+    "sha256": "698c571323aa4c41d748ca866d0f158bb54b577f498bc510b848b6097deefb41"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current/zaidrama/workflows.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/workflows.md",
+    "sha256": "8399f93df13dcf0c1adfaaefa11adcfbd6097949a1ab3730462dbffc8f78ff8b"
+  },
+  "i18n/vi/code.json": {
+    "source": "i18n/en/code.json",
+    "sha256": "2d7c8a3ad144fbdd8ba0bee08f44df89fa4214d7008c1ea8e76f5e3af6d175b8"
+  },
+  "i18n/vi/docusaurus-theme-classic/navbar.json": {
+    "source": "i18n/en/docusaurus-theme-classic/navbar.json",
+    "sha256": "f7581a560e21ced9257da1241c7420459e3bc3264cd87e4feb29cc653c741e28"
+  },
+  "i18n/vi/docusaurus-theme-classic/footer.json": {
+    "source": "i18n/en/docusaurus-theme-classic/footer.json",
+    "sha256": "eb092b84ff0d9ac8664a490b0049f8d5c0605c658668a609ccb489f7d9a0f7c0"
+  },
+  "i18n/vi/docusaurus-plugin-content-docs/current.json": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current.json",
+    "sha256": "0dbd3b8ccc84307266ee3e00a9b6baacb394762dffe46321fccd5ed0b6baa64f"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/endpoints.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/endpoints.md",
+    "sha256": "0d5018f05ab1d06464cc16a5e42da9fc70ebc76fe8a74495a7a6852356ae9242"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/errors.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/errors.md",
+    "sha256": "242672be21d5abaedca4579b4274c325ef58a9279df540d67f3256e93cb01c04"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/faq.md",
+    "sha256": "5c6b636a94c5f9e61151a5d7ad069b92d7dda8875b07af199725cdd4e1e6f04f"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md",
+    "sha256": "26058b0715357a83c48cabcdbf0ebb755cca9ac6939441bba6bda8601f0bad8f"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/claude-sonnet-5-5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-sonnet-5-5.md",
+    "sha256": "15b4396831e258f1e980c9a61d0b1ec87bbf0877d3c0ae5e6a25a69292b4d318"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/cosyvoice2-0.5b.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/cosyvoice2-0.5b.md",
+    "sha256": "098f57e3d8a0e653227da9917765b29787124132c012635a1294c3a0ff541426"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/gpt-5.6-sol.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-5.6-sol.md",
+    "sha256": "c7e8bb19a3cca7f3921e393fb5da9efe672ee8d9097be9aad1f6ba647df27f9a"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/gpt-6-astra.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-6-astra.md",
+    "sha256": "4ffce24897df8276cba8bfbbbaf80c7b93555a238c64d69de146cc6dc6c31f24"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/gpt-6-sol.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-6-sol.md",
+    "sha256": "7e082e742e1c1620810d5eb8a0209646c0f6b7b32df0257ecf8a81022d29c45f"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-flare.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-flare.md",
+    "sha256": "1504ea735f024e3320509f98eb28e94e9cf8940aeed1bf4e38297efae6947520"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-sunburst.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-sunburst.md",
+    "sha256": "483c74635c0d2866816e82a358e2917e94860da4ba59fdeaa34d5754bbd061d4"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.md",
+    "sha256": "01c1910e711b5bf344e3a66c140677f421d1943b38abc02eaa46709eb916fa1c"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-2.0.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-2.0.md",
+    "sha256": "1802fd848f35071d68f6ba4d5a9927036b137b1eb91e3055851ba46d9a154f0a"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-quality.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-quality.md",
+    "sha256": "e09c4f09a3544b6344becdc2ce75ae65f236d34feaad3930975b0cfbf7d3e1c6"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image.md",
+    "sha256": "6c92db161cd31986fd92fb3555575b97307d19711e1ebb34b2b83f48d9fa1129"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video-1.5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video-1.5.md",
+    "sha256": "16aef1a51484ad0d27feb66422178cdea2abad7708525f2d47c6ba7d53bdd777"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video.md",
+    "sha256": "26a58e541da543b2d05c1217d0c343d9c9bfe66d3d171d4eac97de24fe3f0c9f"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models/minimax-h3.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/minimax-h3.md",
+    "sha256": "09980c6276852dca42f0124e79ccbb974acac1d1b494924b307e7a53e93ed82a"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/models.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models.md",
+    "sha256": "4a0bb024c87f57bfac38d08542f1248dc2849c5c7c22e6b600cbf1c3752c5e09"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/quickstart.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/quickstart.md",
+    "sha256": "9a94004afdc346b360e0d960335e44ac3aa72cef039402409e9a89aade94956c"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools.md",
+    "sha256": "8a141146393e762c4f66b5f6cea9a7a1e78087b5c94ed2d122f2a48e9cb282b5"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/index.mdx": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
+    "sha256": "583b3e35c4b7dc9a7306ba29e002190038b86a40cb83cc5daa022dc54a44684f"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/platform/account.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/platform/account.md",
+    "sha256": "e2dda89c933b09dfe3c556a5b38e5a0db153abc71e076666b977afa9997f1250"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/platform/overview.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/platform/overview.md",
+    "sha256": "8b5d9b786e2b25e3830debbb92b2bf78109ea228a0176d06b0f57161d4ce42df"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zai/appearance-and-relationship.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/appearance-and-relationship.md",
+    "sha256": "bbe0d52c7771762ed8646c27aea7190a2ea545fdbabcc2e99389a8156fb361ff"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zai/chat-and-voice.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/chat-and-voice.md",
+    "sha256": "32084d57174de03f08725fecced5bf1aa865b2805cb99821353a640cef8ed180"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zai/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/faq.md",
+    "sha256": "d52df69ce32874239c8b27096688e461e442749d52ad6d1d3491c95633554a4a"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zai/getting-started.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/getting-started.md",
+    "sha256": "e5af04a0b7c3c7124b607a6c7b2215bd9c0301e2c1f8ccee2bd26508207aa4a6"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zai/memory-and-data.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/memory-and-data.md",
+    "sha256": "565cb34973ab6a7eea178b31bc93f72d1d27e1a0400de7cb6d8549eff28e9b02"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zai/plans-and-usage.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/plans-and-usage.md",
+    "sha256": "dcc1d38f5bc68eadf4af434ca5f4c3b265f8db5ef4b27fe8965fc1551cac4c39"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zaidrama/canvas.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/canvas.md",
+    "sha256": "05c1d4d643dbb236875d11d66db57fcf776f7fa72498ae6b1e8d620803f91ff7"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/faq.md",
+    "sha256": "8bd27becde5ff62a487666624118461c3b20aa5037d4f9fa4d426ea33f5631fb"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md",
+    "sha256": "06519bfece61cb6db7f4ca52c47c22d15d229a1fe6bd0a853d9a51ed1c1c4388"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zaidrama/models.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/models.md",
+    "sha256": "698c571323aa4c41d748ca866d0f158bb54b577f498bc510b848b6097deefb41"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current/zaidrama/workflows.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/workflows.md",
+    "sha256": "8399f93df13dcf0c1adfaaefa11adcfbd6097949a1ab3730462dbffc8f78ff8b"
+  },
+  "i18n/ja/code.json": {
+    "source": "i18n/en/code.json",
+    "sha256": "2d7c8a3ad144fbdd8ba0bee08f44df89fa4214d7008c1ea8e76f5e3af6d175b8"
+  },
+  "i18n/ja/docusaurus-theme-classic/navbar.json": {
+    "source": "i18n/en/docusaurus-theme-classic/navbar.json",
+    "sha256": "f7581a560e21ced9257da1241c7420459e3bc3264cd87e4feb29cc653c741e28"
+  },
+  "i18n/ja/docusaurus-theme-classic/footer.json": {
+    "source": "i18n/en/docusaurus-theme-classic/footer.json",
+    "sha256": "eb092b84ff0d9ac8664a490b0049f8d5c0605c658668a609ccb489f7d9a0f7c0"
+  },
+  "i18n/ja/docusaurus-plugin-content-docs/current.json": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current.json",
+    "sha256": "0dbd3b8ccc84307266ee3e00a9b6baacb394762dffe46321fccd5ed0b6baa64f"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/endpoints.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/endpoints.md",
+    "sha256": "0d5018f05ab1d06464cc16a5e42da9fc70ebc76fe8a74495a7a6852356ae9242"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/errors.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/errors.md",
+    "sha256": "242672be21d5abaedca4579b4274c325ef58a9279df540d67f3256e93cb01c04"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/faq.md",
+    "sha256": "5c6b636a94c5f9e61151a5d7ad069b92d7dda8875b07af199725cdd4e1e6f04f"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-opus-5-5.md",
+    "sha256": "26058b0715357a83c48cabcdbf0ebb755cca9ac6939441bba6bda8601f0bad8f"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/claude-sonnet-5-5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/claude-sonnet-5-5.md",
+    "sha256": "15b4396831e258f1e980c9a61d0b1ec87bbf0877d3c0ae5e6a25a69292b4d318"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/cosyvoice2-0.5b.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/cosyvoice2-0.5b.md",
+    "sha256": "098f57e3d8a0e653227da9917765b29787124132c012635a1294c3a0ff541426"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/gpt-5.6-sol.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-5.6-sol.md",
+    "sha256": "c7e8bb19a3cca7f3921e393fb5da9efe672ee8d9097be9aad1f6ba647df27f9a"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/gpt-6-astra.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-6-astra.md",
+    "sha256": "4ffce24897df8276cba8bfbbbaf80c7b93555a238c64d69de146cc6dc6c31f24"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/gpt-6-sol.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-6-sol.md",
+    "sha256": "7e082e742e1c1620810d5eb8a0209646c0f6b7b32df0257ecf8a81022d29c45f"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-flare.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-flare.md",
+    "sha256": "1504ea735f024e3320509f98eb28e94e9cf8940aeed1bf4e38297efae6947520"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-sunburst.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.5-sunburst.md",
+    "sha256": "483c74635c0d2866816e82a358e2917e94860da4ba59fdeaa34d5754bbd061d4"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/gpt-image-2.md",
+    "sha256": "01c1910e711b5bf344e3a66c140677f421d1943b38abc02eaa46709eb916fa1c"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-2.0.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-2.0.md",
+    "sha256": "1802fd848f35071d68f6ba4d5a9927036b137b1eb91e3055851ba46d9a154f0a"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-quality.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image-quality.md",
+    "sha256": "e09c4f09a3544b6344becdc2ce75ae65f236d34feaad3930975b0cfbf7d3e1c6"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-image.md",
+    "sha256": "6c92db161cd31986fd92fb3555575b97307d19711e1ebb34b2b83f48d9fa1129"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video-1.5.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video-1.5.md",
+    "sha256": "16aef1a51484ad0d27feb66422178cdea2abad7708525f2d47c6ba7d53bdd777"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/grok-imagine-video.md",
+    "sha256": "26a58e541da543b2d05c1217d0c343d9c9bfe66d3d171d4eac97de24fe3f0c9f"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models/minimax-h3.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models/minimax-h3.md",
+    "sha256": "09980c6276852dca42f0124e79ccbb974acac1d1b494924b307e7a53e93ed82a"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/models.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/models.md",
+    "sha256": "4a0bb024c87f57bfac38d08542f1248dc2849c5c7c22e6b600cbf1c3752c5e09"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/quickstart.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/quickstart.md",
+    "sha256": "9a94004afdc346b360e0d960335e44ac3aa72cef039402409e9a89aade94956c"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/api/tools.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools.md",
+    "sha256": "8a141146393e762c4f66b5f6cea9a7a1e78087b5c94ed2d122f2a48e9cb282b5"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/index.mdx": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
+    "sha256": "583b3e35c4b7dc9a7306ba29e002190038b86a40cb83cc5daa022dc54a44684f"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/platform/account.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/platform/account.md",
+    "sha256": "e2dda89c933b09dfe3c556a5b38e5a0db153abc71e076666b977afa9997f1250"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/platform/overview.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/platform/overview.md",
+    "sha256": "8b5d9b786e2b25e3830debbb92b2bf78109ea228a0176d06b0f57161d4ce42df"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zai/appearance-and-relationship.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/appearance-and-relationship.md",
+    "sha256": "bbe0d52c7771762ed8646c27aea7190a2ea545fdbabcc2e99389a8156fb361ff"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zai/chat-and-voice.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/chat-and-voice.md",
+    "sha256": "32084d57174de03f08725fecced5bf1aa865b2805cb99821353a640cef8ed180"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zai/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/faq.md",
+    "sha256": "d52df69ce32874239c8b27096688e461e442749d52ad6d1d3491c95633554a4a"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zai/getting-started.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/getting-started.md",
+    "sha256": "e5af04a0b7c3c7124b607a6c7b2215bd9c0301e2c1f8ccee2bd26508207aa4a6"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zai/memory-and-data.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/memory-and-data.md",
+    "sha256": "565cb34973ab6a7eea178b31bc93f72d1d27e1a0400de7cb6d8549eff28e9b02"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zai/plans-and-usage.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zai/plans-and-usage.md",
+    "sha256": "dcc1d38f5bc68eadf4af434ca5f4c3b265f8db5ef4b27fe8965fc1551cac4c39"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zaidrama/canvas.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/canvas.md",
+    "sha256": "05c1d4d643dbb236875d11d66db57fcf776f7fa72498ae6b1e8d620803f91ff7"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/faq.md",
+    "sha256": "8bd27becde5ff62a487666624118461c3b20aa5037d4f9fa4d426ea33f5631fb"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md",
+    "sha256": "06519bfece61cb6db7f4ca52c47c22d15d229a1fe6bd0a853d9a51ed1c1c4388"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zaidrama/models.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/models.md",
+    "sha256": "698c571323aa4c41d748ca866d0f158bb54b577f498bc510b848b6097deefb41"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current/zaidrama/workflows.md": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/workflows.md",
+    "sha256": "8399f93df13dcf0c1adfaaefa11adcfbd6097949a1ab3730462dbffc8f78ff8b"
+  },
+  "i18n/es/code.json": {
+    "source": "i18n/en/code.json",
+    "sha256": "2d7c8a3ad144fbdd8ba0bee08f44df89fa4214d7008c1ea8e76f5e3af6d175b8"
+  },
+  "i18n/es/docusaurus-theme-classic/navbar.json": {
+    "source": "i18n/en/docusaurus-theme-classic/navbar.json",
+    "sha256": "f7581a560e21ced9257da1241c7420459e3bc3264cd87e4feb29cc653c741e28"
+  },
+  "i18n/es/docusaurus-theme-classic/footer.json": {
+    "source": "i18n/en/docusaurus-theme-classic/footer.json",
+    "sha256": "eb092b84ff0d9ac8664a490b0049f8d5c0605c658668a609ccb489f7d9a0f7c0"
+  },
+  "i18n/es/docusaurus-plugin-content-docs/current.json": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current.json",
+    "sha256": "0dbd3b8ccc84307266ee3e00a9b6baacb394762dffe46321fccd5ed0b6baa64f"
+  }
+}

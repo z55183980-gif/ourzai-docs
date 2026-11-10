@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "現行版",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.ZAI 平台": {
+    "message": "ZAI プラットフォーム",
+    "description": "The label for category 'ZAI 平台' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.遇见 Zai": {
+    "message": "Zai に出会う",
+    "description": "The label for category '遇见 Zai' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.API 接入": {
+    "message": "API アクセス",
+    "description": "The label for category 'API 接入' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.ZaiDrama 创作": {
+    "message": "ZaiDrama",
+    "description": "The label for category 'ZaiDrama 创作' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.模型接入": {
+    "message": "モデル別の接続",
+    "description": "The label for category '模型接入' in sidebar 'docsSidebar'"
+  }
+}

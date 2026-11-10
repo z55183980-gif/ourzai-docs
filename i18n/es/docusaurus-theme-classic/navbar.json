@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Documentación",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ZAI",
+    "description": "The alt text of navbar logo"
+  }
+}

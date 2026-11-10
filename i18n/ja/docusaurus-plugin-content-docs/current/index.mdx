@@ -1,0 +1,127 @@
+---
+id: index
+slug: /
+title: "ZAI ドキュメント"
+sidebar_label: "ドキュメント概要"
+description: "ZAI プラットフォームのドキュメント - アカウント、Zai の AI コンパニオン、ZaiDrama の制作、開発者向け API 連携。"
+sidebar_position: 0
+hide_title: true
+hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
+update_docs: engine-b
+---
+
+import Link from "@docusaurus/Link";
+import CodeBlock from "@theme/CodeBlock";
+
+<div className="docsStart">
+  <header className="docsStartHero">
+    <p className="docsStartEyebrow">{"ZAI ドキュメント"}</p>
+    <h1>{"ZAI をはじめる"}</h1>
+    <p className="docsStartLead">{"コンパニオン、クリエイション、API。使いたいプロダクトを選んで、クイックスタートから読み進めてください。"}</p>
+  </header>
+
+  <section className="docsStartProducts" aria-label="プロダクト">
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/zai-app-icon-192.png" alt="" width="40" height="40" />
+        <div>
+          <h2>{"Meet Zai"}</h2>
+          <p className="docsStartProductHost">zai.gg</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"あなたの AI パートナーです。日常のおしゃべりや音声通話を楽しみ、見た目や関係性を選べます。長期メモリーはいつでも確認・管理できます。"}</p>
+      <Link className="docsStartProductPrimary" to="/zai/getting-started">{"はじめる →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/zai/chat-and-voice">{"チャットと音声"}</Link></li>
+        <li><Link to="/zai/memory-and-data">{"メモリーとデータ"}</Link></li>
+        <li><Link to="/zai/plans-and-usage">{"プランと利用状況"}</Link></li>
+      </ul>
+    </article>
+
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/zaidrama-mark-192.png" alt="" width="40" height="40" />
+        <div>
+          <h2>{"ZaiDrama"}</h2>
+          <p className="docsStartProductHost">zaidrama.com</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"AI 動画制作のワークスペースです。アイデア、小説、製品紹介を短編ドラマ、広告、解説動画に仕上げます。"}</p>
+      <Link className="docsStartProductPrimary" to="/zaidrama/getting-started">{"入門チュートリアル →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/zaidrama/workflows">{"クリエイティブワークフロー"}</Link></li>
+        <li><Link to="/zaidrama/canvas">{"クリエイティブキャンバス"}</Link></li>
+        <li><Link to="/zaidrama/models">{"モデルと機能"}</Link></li>
+      </ul>
+    </article>
+
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/console-mark.svg" alt="" width="40" height="40" />
+        <div>
+          <h2>{"API"}</h2>
+          <p className="docsStartProductHost">api.ourzai.com/v1</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"OpenAI 互換のインターフェースです。1 つの API キーと 1 つの base_url で、チャット、画像、音声、動画のモデルを呼び出せます。"}</p>
+      <Link className="docsStartProductPrimary" to="/api/quickstart">{"クイックスタート →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/api/endpoints">{"インターフェースと機能"}</Link></li>
+        <li><Link to="/api/errors">{"エラー、制限、利用状況"}</Link></li>
+        <li><Link to="https://ourzai.com/console">{"デベロッパーコンソール"}</Link></li>
+      </ul>
+    </article>
+  </section>
+
+  <section className="docsStartSection docsStartRequest" aria-labelledby="docs-start-request">
+    <div className="docsStartRequestCopy">
+      <h2 id="docs-start-request">{"最初の API リクエストを送る"}</h2>
+      <p>{"デベロッパーコンソールで API キーを作成し、base_url を https://api.ourzai.com/v1 に変更すれば、既存の OpenAI SDK や HTTP のコードがそのまま使えます。料金は実際の利用量に応じて米ドル残高から差し引かれます。"}</p>
+      <Link to="/api/quickstart#python">{"Python・Node.js の例 →"}</Link>
+    </div>
+    <div className="docsStartRequestCode">
+      <CodeBlock language="bash">{`curl https://api.ourzai.com/v1/chat/completions \\
+  -H "Authorization: Bearer $ZAI_API_KEY" \\
+  -H "Content-Type: application/json" \\
+  -d '{
+    "model": "<MODEL_ID>",
+    "messages": [{"role": "user", "content": "Hello"}]
+  }'`}</CodeBlock>
+    </div>
+  </section>
+
+  <section className="docsStartSection" aria-labelledby="docs-start-account">
+    <h2 id="docs-start-account">{"アカウントと残高"}</h2>
+    <div className="docsStartFacts">
+      <Link className="docsStartFact" to="/platform/account">
+        <h3>{"1 つのプラットフォームアカウント"}</h3>
+        <p>{"メールアドレスまたは Google で一度登録すれば、Meet Zai、ZaiDrama、デベロッパーコンソールのすべてにログインできます。"}</p>
+        <span>{"アカウント、クレジット、サポート →"}</span>
+      </Link>
+      <Link className="docsStartFact" to="/platform/overview#credits">
+        <h3>{"米ドル残高"}</h3>
+        <p>{"API と ZaiDrama で共通です。コンソールでも ZaiDrama でもチャージ先は同じ残高で、有効期限はありません。"}</p>
+        <span>{"プラットフォーム概要 →"}</span>
+      </Link>
+      <Link className="docsStartFact" to="/zai/plans-and-usage">
+        <h3>{"コンパニオンプラン"}</h3>
+        <p>{"Meet Zai のメンバーシップや音声・通話の利用枠は別途購入するもので、プラットフォーム残高とは連動しません。"}</p>
+        <span>{"プランと利用状況 →"}</span>
+      </Link>
+    </div>
+  </section>
+
+  <section className="docsStartHelp" aria-label="ヘルプ">
+    <div>
+      <h2>{"まだ解決しませんか？"}</h2>
+      <p>{"ourzai.com の Zai アシスタントが、このドキュメントをもとに質問にお答えします。担当者の対応が必要な場合は support@ourzai.com までメールでご連絡ください。"}</p>
+    </div>
+    <ul>
+      <li><Link to="/zai/faq">{"Meet Zai よくある質問"}</Link></li>
+      <li><Link to="/zaidrama/faq">{"ZaiDrama よくある質問"}</Link></li>
+      <li><Link to="/platform/account#support">{"お問い合わせとサポート"}</Link></li>
+    </ul>
+  </section>
+</div>

@@ -1,0 +1,7 @@
+# Cloudflare Pages 重定向：文档站 2026-09 由「ZaiDrama 文档」改为「ZAI 平台文档」，
+# ZaiDrama 各页从 /guide/*、/ops/* 移到 /zaidrama/*。旧地址保留 301，免得外部书签和缓存链接失效。
+# 具体规则必须写在通配规则前面（按顺序匹配）。
+/guide/providers        /zaidrama/models         301
+/guide/*                /zaidrama/:splat         301
+/en/guide/providers     /en/zaidrama/models      301
+/en/guide/*             /en/zaidrama/:splat      301

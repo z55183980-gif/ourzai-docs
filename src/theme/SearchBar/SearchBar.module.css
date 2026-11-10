@@ -1,0 +1,341 @@
+.searchBar .dropdownMenu {
+  left: auto !important;
+  right: 0 !important;
+
+  background: var(--docs-surface-raised, var(--search-local-modal-background, #f5f6f7));
+  border: 1px solid var(--docs-border-strong, rgba(68, 53, 118, 0.24));
+  border-radius: 12px;
+  box-shadow: var(--docs-shadow-md, var(--search-local-modal-shadow, 0 12px 32px rgba(0, 0, 0, 0.18)));
+  margin-top: 10px;
+  width: var(--search-local-modal-width, 560px);
+  position: relative;
+
+  padding: var(--search-local-spacing, 12px);
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+html[data-theme="dark"] div:global(.ask-ai),
+div:global(.ask-ai) {
+  --ask-ai-primary: var(--ifm-color-primary);
+  --ask-ai-primary-hover: var(--ifm-color-primary-light);
+  --ask-ai-foreground: var(--ifm-color-content);
+  --ask-ai-border: var(--ifm-color-emphasis-300);
+  --ask-ai-error: var(--ifm-color-danger);
+  --ask-ai-button-bg: var(--ifm-color-emphasis-200);
+}
+
+:global(.ask-ai) {
+  --ask-ai-background: var(--search-local-modal-background, #f5f6f7);
+  --ask-ai-muted: var(--search-local-muted-color, #969faf);
+}
+
+html[data-theme="dark"] :global(.ask-ai) {
+  --ask-ai-background: var(--search-local-modal-background, var(--ifm-background-color));
+  --ask-ai-muted: var(--search-local-muted-color, var(--ifm-color-secondary-darkest));
+}
+
+@media not (max-width: 996px) {
+  .searchBar.searchBarLeft .dropdownMenu {
+    left: 0 !important;
+    right: auto !important;
+  }
+}
+
+@media (max-width: 576px) {
+  :global(.navbar__search-input):not(:focus) {
+    width: 2rem;
+  }
+
+  .searchBar .dropdownMenu {
+    width: var(--search-local-modal-width-sm, 340px);
+    max-width: calc(100vw - var(--ifm-navbar-padding-horizontal) * 2);
+  }
+}
+
+html[data-theme="dark"] .searchBar .dropdownMenu {
+  background: var(--search-local-modal-background, var(--ifm-background-color));
+  box-shadow: var(--search-local-modal-shadow, inset 1px 1px 0 0 #2c2e40, 0 3px 8px 0 #000309);
+}
+
+.searchBar .dropdownMenu .suggestion {
+  cursor: pointer;
+  background: var(--docs-surface-raised, var(--search-local-hit-background, #fff));
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 0 10px;
+  width: 100%;
+
+  align-items: center;
+  color: var(--search-local-hit-color, #444950);
+  display: flex;
+  flex-direction: row;
+  height: var(--search-local-hit-height, 54px);
+}
+
+html[data-theme="dark"] .dropdownMenu .suggestion {
+  background: var(--docs-surface-raised, var(--search-local-hit-background, var(--ifm-color-emphasis-100)));
+  box-shadow: none;
+  color: var(--search-local-hit-color, var(--ifm-font-color-base));
+}
+
+.searchBar .dropdownMenu .suggestion:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+.searchBar .dropdownMenu .suggestion:not(.cursor):hover {
+  background: var(--docs-accent-soft, var(--ifm-color-emphasis-100));
+  border-color: var(--docs-border, transparent);
+}
+
+.searchBar .dropdownMenu .suggestion.cursor {
+  background-color: var(--search-local-highlight-color, var(--ifm-color-primary));
+}
+
+.hitTree,
+.hitIcon,
+.hitPath,
+.noResultsIcon,
+.hitFooter a {
+  color: var(--search-local-muted-color, #969faf);
+}
+
+html[data-theme="dark"] .hitTree,
+html[data-theme="dark"] .hitIcon,
+html[data-theme="dark"] .hitPath,
+html[data-theme="dark"] .noResultsIcon {
+  color: var(--search-local-muted-color, var(--ifm-color-secondary-darkest));
+}
+
+.hitTree {
+  display: flex;
+  align-items: center;
+}
+
+.hitTree > svg {
+  height: var(--search-local-hit-height, 56px);
+  opacity: 0.5;
+  stroke-width: var(--search-local-icon-stroke-width, 1.4);
+  width: 24px;
+}
+
+.hitIcon {
+  stroke-width: var(--search-local-icon-stroke-width, 1.4);
+
+  height: 20px;
+  width: 20px;
+}
+
+.hitWrapper {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  justify-content: center;
+  margin: 0 8px;
+  overflow-x: hidden;
+  width: 80%;
+}
+
+.hitWrapper mark {
+  background: none;
+  color: var(--search-local-highlight-color, var(--ifm-color-primary));
+}
+
+.hitTitle {
+  font-size: 0.9em;
+}
+
+.hitPath {
+  font-size: 0.75em;
+}
+
+.hitPath,
+.hitTitle {
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.hitAction {
+  height: 20px;
+  width: 20px;
+}
+
+.hideAction > svg {
+  display: none;
+}
+
+.noResults {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--search-local-spacing, 12px) 0;
+}
+
+.noResultsIcon {
+  margin-bottom: var(--search-local-spacing, 12px);
+}
+
+.hitFooter {
+  text-align: center;
+  margin-top: var(--search-local-spacing, 12px);
+  font-size: 0.85em;
+}
+
+.hitFooter a {
+  text-decoration: underline;
+}
+
+.cursor .hideAction > svg {
+  display: block;
+}
+
+.suggestion.cursor,
+.suggestion.cursor mark,
+.suggestion.cursor .hitTree,
+.suggestion.cursor .hitIcon,
+.suggestion.cursor .hitPath {
+  color: var(--search-local-hit-active-color, var(--ifm-color-white)) !important;
+}
+
+.suggestion.cursor mark {
+  text-decoration: underline;
+}
+
+.searchBarContainer {
+  margin-left: 20px;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 0.95rem;
+  width: 1.05rem;
+  height: 1.05rem;
+  color: var(--ifm-color-primary);
+  pointer-events: none;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.searchInput {
+  background-image: none;
+}
+
+.searchBarContainer .searchBarLoadingRing {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+.searchBarContainer .searchClearButton {
+  position: absolute;
+  right: 0.65rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: grid;
+  width: 1.7rem;
+  height: 1.7rem;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.8rem;
+  line-height: 1rem;
+  transition:
+    color 160ms ease,
+    background-color 160ms ease;
+}
+
+.searchBarContainer .searchClearButton:hover {
+  background: var(--docs-accent-soft);
+  color: var(--ifm-color-primary);
+}
+
+:global(.navbar__search) {
+  position: relative;
+}
+
+.searchIndexLoading :global(.navbar__search-input) {
+  background-image: none;
+}
+
+.searchIndexLoading .searchIcon {
+  display: none;
+}
+
+.searchBarContainer.searchIndexLoading .searchBarLoadingRing {
+  display: inline-block;
+}
+
+.searchHintContainer {
+  position: absolute;
+  right: 0.75rem;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  pointer-events: none;
+  gap: 4px;
+}
+
+.searchHint {
+  min-width: 1.35rem;
+  padding: 0.12rem 0.3rem;
+  border: 1px solid var(--docs-border-strong);
+  border-radius: 4px;
+  background: var(--docs-surface-muted);
+  box-shadow: none;
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.68rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .searchBarContainer:not(.focused) .searchClearButton,
+  .searchHintContainer {
+    display: none;
+  }
+}
+
+html[dir="rtl"] .searchHintContainer {
+  right: auto;
+  left: 10px;
+}
+
+html[dir="rtl"] .searchBarContainer .searchClearButton {
+  right: auto;
+  left: 0.8rem;
+}
+
+html[dir="rtl"] .searchBarContainer .searchBarLoadingRing {
+  left: auto;
+  right: 10px;
+}
+
+html[dir="rtl"] :global(.navbar__search-input) {
+  padding: 0 2.25em 0 0.5em;
+}
+
+/* For autocomplete.js only. */
+.input {
+}
+.hint {
+}
+.suggestions {
+}
+.dataset {
+}
+.empty {
+}
+/**/

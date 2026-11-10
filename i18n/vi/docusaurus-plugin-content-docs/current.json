@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Phiên bản hiện tại",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.ZAI 平台": {
+    "message": "Nền tảng ZAI",
+    "description": "The label for category 'ZAI 平台' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.遇见 Zai": {
+    "message": "Gặp gỡ Zai",
+    "description": "The label for category '遇见 Zai' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.API 接入": {
+    "message": "Tích hợp API",
+    "description": "The label for category 'API 接入' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.ZaiDrama 创作": {
+    "message": "Sáng tạo ZaiDrama",
+    "description": "The label for category 'ZaiDrama 创作' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.模型接入": {
+    "message": "Tích hợp theo mô hình",
+    "description": "The label for category '模型接入' in sidebar 'docsSidebar'"
+  }
+}

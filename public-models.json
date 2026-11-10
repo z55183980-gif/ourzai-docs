@@ -1,0 +1,95 @@
+{
+  "verified_on": "2026-10-24",
+  "models": [
+    {
+      "id": "gpt-6-astra",
+      "kind": "chat",
+      "endpoints": ["chat.completions", "responses"],
+      "path": "api/models/gpt-6-astra"
+    },
+    {
+      "id": "gpt-6-sol",
+      "kind": "chat",
+      "endpoints": ["chat.completions", "responses"],
+      "path": "api/models/gpt-6-sol"
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "kind": "chat",
+      "endpoints": ["chat.completions"],
+      "path": "api/models/gpt-5.6-sol"
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "kind": "chat",
+      "endpoints": ["chat.completions"],
+      "path": "api/models/claude-sonnet-5-5"
+    },
+    {
+      "id": "claude-opus-5-5",
+      "kind": "chat",
+      "endpoints": ["chat.completions", "messages", "messages.count_tokens"],
+      "path": "api/models/claude-opus-5-5"
+    },
+    {
+      "id": "gpt-image-2",
+      "kind": "image",
+      "endpoints": ["images.generations", "images.edits"],
+      "path": "api/models/gpt-image-2"
+    },
+    {
+      "id": "gpt-image-2.5-flare",
+      "kind": "image",
+      "endpoints": ["images.generations", "images.edits"],
+      "path": "api/models/gpt-image-2.5-flare"
+    },
+    {
+      "id": "gpt-image-2.5-sunburst",
+      "kind": "image",
+      "endpoints": ["images.generations", "images.edits"],
+      "path": "api/models/gpt-image-2.5-sunburst"
+    },
+    {
+      "id": "grok-imagine-image",
+      "kind": "image",
+      "endpoints": ["images.generations", "images.edits"],
+      "path": "api/models/grok-imagine-image"
+    },
+    {
+      "id": "grok-imagine-image-2.0",
+      "kind": "image",
+      "endpoints": ["images.generations", "images.edits"],
+      "path": "api/models/grok-imagine-image-2.0"
+    },
+    {
+      "id": "grok-imagine-image-quality",
+      "kind": "image",
+      "endpoints": ["images.generations", "images.edits"],
+      "path": "api/models/grok-imagine-image-quality"
+    },
+    {
+      "id": "grok-imagine-video",
+      "kind": "video",
+      "endpoints": ["videos.generations"],
+      "path": "api/models/grok-imagine-video"
+    },
+    {
+      "id": "grok-imagine-video-1.5",
+      "kind": "video",
+      "endpoints": ["videos.generations"],
+      "path": "api/models/grok-imagine-video-1.5"
+    },
+    {
+      "id": "minimax-h3",
+      "kind": "video",
+      "endpoints": ["videos.generations"],
+      "path": "api/models/minimax-h3"
+    },
+    {
+      "id": "cosyvoice2-0.5b",
+      "kind": "speech",
+      "endpoints": ["audio.speech"],
+      "path": "api/models/cosyvoice2-0.5b"
+    }
+  ]
+}

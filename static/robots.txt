@@ -1,0 +1,11 @@
+# Cloudflare prepends its managed crawler rules to this file at the edge.
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.ourzai.com/sitemap.xml
+Sitemap: https://docs.ourzai.com/en/sitemap.xml
+Sitemap: https://docs.ourzai.com/zh-HK/sitemap.xml
+Sitemap: https://docs.ourzai.com/fr/sitemap.xml
+Sitemap: https://docs.ourzai.com/vi/sitemap.xml
+Sitemap: https://docs.ourzai.com/ja/sitemap.xml
+Sitemap: https://docs.ourzai.com/es/sitemap.xml

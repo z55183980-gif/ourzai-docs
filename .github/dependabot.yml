@@ -1,0 +1,62 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    versioning-strategy: increase-if-necessary
+    cooldown:
+      default-days: 5
+      semver-major-days: 14
+      semver-minor-days: 5
+      semver-patch-days: 3
+    labels:
+      - "dependencies"
+      - "javascript"
+    commit-message:
+      prefix: "chore(deps)"
+    # 文档站的 typescript 上限是 6.x：tsconfig.json 继承 @docusaurus/tsconfig，
+    # 后者在 compilerOptions 里设置 baseUrl —— 该选项在 TypeScript 6 被标记弃用
+    # （tsconfig.json 以 ignoreDeprecations: "6.0" 显式豁免），在 TypeScript 7 已移除，
+    # 加载即报 TS5102，无豁免手段。解锁条件：@docusaurus/tsconfig 去掉 baseUrl。
+    ignore:
+      - dependency-name: "typescript"
+        versions: [">=7"]
+    groups:
+      docusaurus:
+        patterns:
+          - "@docusaurus/*"
+          - "@easyops-cn/docusaurus-search-local"
+        update-types:
+          - "minor"
+          - "patch"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+        update-types:
+          - "minor"
+          - "patch"
+      dev-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+      all-other:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]

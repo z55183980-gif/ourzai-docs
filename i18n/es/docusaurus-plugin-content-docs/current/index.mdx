@@ -1,0 +1,127 @@
+---
+id: index
+slug: /
+title: "Documentación de ZAI"
+sidebar_label: "Resumen de la documentación"
+description: "Documentación de la plataforma ZAI: cuentas, compañía de IA de Zai, creación con ZaiDrama e integración de la API para desarrolladores."
+sidebar_position: 0
+hide_title: true
+hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
+update_docs: engine-b
+---
+
+import Link from "@docusaurus/Link";
+import CodeBlock from "@theme/CodeBlock";
+
+<div className="docsStart">
+  <header className="docsStartHero">
+    <p className="docsStartEyebrow">{"Documentación de ZAI"}</p>
+    <h1>{"Empieza con ZAI"}</h1>
+    <p className="docsStartLead">{"Acompañamiento, creación o API: elige un producto y empieza por su guía de inicio."}</p>
+  </header>
+
+  <section className="docsStartProducts" aria-label="Productos">
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/zai-app-icon-192.png" alt="" width="40" height="40" />
+        <div>
+          <h2>{"Meet Zai"}</h2>
+          <p className="docsStartProductHost">zai.gg</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"Tu compañía de IA. Charla sobre tu día, haz llamadas de voz, elige su apariencia y tipo de relación, y consulta o gestiona su memoria a largo plazo cuando quieras."}</p>
+      <Link className="docsStartProductPrimary" to="/zai/getting-started">{"Primeros pasos →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/zai/chat-and-voice">{"Chat y voz"}</Link></li>
+        <li><Link to="/zai/memory-and-data">{"Memoria y datos"}</Link></li>
+        <li><Link to="/zai/plans-and-usage">{"Planes y uso"}</Link></li>
+      </ul>
+    </article>
+
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/zaidrama-mark-192.png" alt="" width="40" height="40" />
+        <div>
+          <h2>{"ZaiDrama"}</h2>
+          <p className="docsStartProductHost">zaidrama.com</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"Un espacio de creación de vídeo con IA. Convierte ideas, novelas o presentaciones de productos en dramas cortos, anuncios o vídeos explicativos."}</p>
+      <Link className="docsStartProductPrimary" to="/zaidrama/getting-started">{"Empezar el tutorial →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/zaidrama/workflows">{"Flujo de trabajo creativo"}</Link></li>
+        <li><Link to="/zaidrama/canvas">{"Lienzo creativo"}</Link></li>
+        <li><Link to="/zaidrama/models">{"Modelos y capacidades"}</Link></li>
+      </ul>
+    </article>
+
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/console-mark.svg" alt="" width="40" height="40" />
+        <div>
+          <h2>{"API"}</h2>
+          <p className="docsStartProductHost">api.ourzai.com/v1</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"Compatible con el formato de la API de OpenAI. Una clave de API y una base_url para llamar a modelos de chat, imagen, voz y vídeo."}</p>
+      <Link className="docsStartProductPrimary" to="/api/quickstart">{"Inicio rápido →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/api/endpoints">{"Interfaces y capacidades"}</Link></li>
+        <li><Link to="/api/errors">{"Errores, límites y uso"}</Link></li>
+        <li><Link to="https://ourzai.com/console">{"Consola para desarrolladores"}</Link></li>
+      </ul>
+    </article>
+  </section>
+
+  <section className="docsStartSection docsStartRequest" aria-labelledby="docs-start-request">
+    <div className="docsStartRequestCopy">
+      <h2 id="docs-start-request">{"Envía tu primera solicitud a la API"}</h2>
+      <p>{"Crea una clave de API en la consola para desarrolladores y cambia tu base_url a https://api.ourzai.com/v1: tu código actual con el SDK de OpenAI o HTTP funcionará sin cambios. El uso se cobra de tu saldo en USD."}</p>
+      <Link to="/api/quickstart#python">{"Ejemplos en Python y Node.js →"}</Link>
+    </div>
+    <div className="docsStartRequestCode">
+      <CodeBlock language="bash">{`curl https://api.ourzai.com/v1/chat/completions \\
+  -H "Authorization: Bearer $ZAI_API_KEY" \\
+  -H "Content-Type: application/json" \\
+  -d '{
+    "model": "<MODEL_ID>",
+    "messages": [{"role": "user", "content": "Hello"}]
+  }'`}</CodeBlock>
+    </div>
+  </section>
+
+  <section className="docsStartSection" aria-labelledby="docs-start-account">
+    <h2 id="docs-start-account">{"Cuenta y saldo"}</h2>
+    <div className="docsStartFacts">
+      <Link className="docsStartFact" to="/platform/account">
+        <h3>{"Una sola cuenta de plataforma"}</h3>
+        <p>{"Regístrate una vez con tu correo o con Google para iniciar sesión en Meet Zai, ZaiDrama y la consola para desarrolladores."}</p>
+        <span>{"Cuenta, créditos y soporte →"}</span>
+      </Link>
+      <Link className="docsStartFact" to="/platform/overview#credits">
+        <h3>{"Saldo en USD"}</h3>
+        <p>{"Compartido entre la API y ZaiDrama. Las recargas desde la consola o desde ZaiDrama van al mismo saldo y no caducan."}</p>
+        <span>{"Descripción general de la plataforma →"}</span>
+      </Link>
+      <Link className="docsStartFact" to="/zai/plans-and-usage">
+        <h3>{"Plan de acompañamiento"}</h3>
+        <p>{"La membresía de Meet Zai y los minutos de voz y llamadas se compran por separado y no dependen del saldo de la plataforma."}</p>
+        <span>{"Planes y uso →"}</span>
+      </Link>
+    </div>
+  </section>
+
+  <section className="docsStartHelp" aria-label="Ayuda">
+    <div>
+      <h2>{"¿Tienes más preguntas?"}</h2>
+      <p>{"La asistente Zai en ourzai.com responde a tus preguntas a partir de esta documentación. Si necesitas que te atienda una persona, escribe a support@ourzai.com."}</p>
+    </div>
+    <ul>
+      <li><Link to="/zai/faq">{"Preguntas frecuentes de Meet Zai"}</Link></li>
+      <li><Link to="/zaidrama/faq">{"Preguntas frecuentes de ZaiDrama"}</Link></li>
+      <li><Link to="/platform/account#support">{"Contacto y soporte"}</Link></li>
+    </ul>
+  </section>
+</div>

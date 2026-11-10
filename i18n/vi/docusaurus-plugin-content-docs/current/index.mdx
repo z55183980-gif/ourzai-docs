@@ -1,0 +1,127 @@
+---
+id: index
+slug: /
+title: "Tài liệu ZAI"
+sidebar_label: "Tổng quan tài liệu"
+description: "Tài liệu nền tảng ZAI - tài khoản, đồng hành cùng Zai, sáng tạo ZaiDrama và tích hợp API cho nhà phát triển."
+sidebar_position: 0
+hide_title: true
+hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
+update_docs: engine-b
+---
+
+import Link from "@docusaurus/Link";
+import CodeBlock from "@theme/CodeBlock";
+
+<div className="docsStart">
+  <header className="docsStartHero">
+    <p className="docsStartEyebrow">{"Tài liệu ZAI"}</p>
+    <h1>{"Bắt đầu với ZAI"}</h1>
+    <p className="docsStartLead">{"Đồng hành, sáng tạo hay tích hợp API — hãy chọn một sản phẩm và bắt đầu từ phần hướng dẫn nhanh."}</p>
+  </header>
+
+  <section className="docsStartProducts" aria-label="Sản phẩm">
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/zai-app-icon-192.png" alt="" width="40" height="40" />
+        <div>
+          <h2>{"Meet Zai"}</h2>
+          <p className="docsStartProductHost">zai.gg</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"Người bạn AI của bạn. Trò chuyện hằng ngày, gọi thoại, chọn ngoại hình và kiểu quan hệ, đồng thời xem và quản lý ký ức dài hạn bất cứ lúc nào."}</p>
+      <Link className="docsStartProductPrimary" to="/zai/getting-started">{"Bắt đầu →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/zai/chat-and-voice">{"Trò chuyện và giọng nói"}</Link></li>
+        <li><Link to="/zai/memory-and-data">{"Ký ức và dữ liệu"}</Link></li>
+        <li><Link to="/zai/plans-and-usage">{"Gói dịch vụ và mức sử dụng"}</Link></li>
+      </ul>
+    </article>
+
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/zaidrama-mark-192.png" alt="" width="40" height="40" />
+        <div>
+          <h2>{"ZaiDrama"}</h2>
+          <p className="docsStartProductHost">zaidrama.com</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"Nền tảng sáng tạo video bằng AI. Biến ý tưởng, tiểu thuyết hoặc giới thiệu sản phẩm thành phim ngắn, quảng cáo hoặc video giải thích."}</p>
+      <Link className="docsStartProductPrimary" to="/zaidrama/getting-started">{"Hướng dẫn bắt đầu →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/zaidrama/workflows">{"Quy trình sáng tạo"}</Link></li>
+        <li><Link to="/zaidrama/canvas">{"Không gian sáng tạo"}</Link></li>
+        <li><Link to="/zaidrama/models">{"Mô hình và khả năng"}</Link></li>
+      </ul>
+    </article>
+
+    <article className="docsStartProduct">
+      <div className="docsStartProductHead">
+        <img className="docsStartProductIcon" src="/img/console-mark.svg" alt="" width="40" height="40" />
+        <div>
+          <h2>{"API"}</h2>
+          <p className="docsStartProductHost">api.ourzai.com/v1</p>
+        </div>
+      </div>
+      <p className="docsStartProductDesc">{"Tương thích định dạng API của OpenAI. Một khóa API và một base_url để gọi các mô hình trò chuyện, hình ảnh, giọng nói và video."}</p>
+      <Link className="docsStartProductPrimary" to="/api/quickstart">{"Bắt đầu nhanh →"}</Link>
+      <ul className="docsStartProductLinks">
+        <li><Link to="/api/endpoints">{"Giao diện và khả năng"}</Link></li>
+        <li><Link to="/api/errors">{"Lỗi, giới hạn và mức sử dụng"}</Link></li>
+        <li><Link to="https://ourzai.com/console">{"Bảng điều khiển nhà phát triển"}</Link></li>
+      </ul>
+    </article>
+  </section>
+
+  <section className="docsStartSection docsStartRequest" aria-labelledby="docs-start-request">
+    <div className="docsStartRequestCopy">
+      <h2 id="docs-start-request">{"Gửi yêu cầu API đầu tiên"}</h2>
+      <p>{"Tạo khóa API trong bảng điều khiển nhà phát triển và đổi base_url thành https://api.ourzai.com/v1 — mã OpenAI SDK hoặc HTTP hiện có của bạn dùng được ngay. Chi phí được trừ vào số dư USD theo mức sử dụng thực tế."}</p>
+      <Link to="/api/quickstart#python">{"Ví dụ Python và Node.js →"}</Link>
+    </div>
+    <div className="docsStartRequestCode">
+      <CodeBlock language="bash">{`curl https://api.ourzai.com/v1/chat/completions \\
+  -H "Authorization: Bearer $ZAI_API_KEY" \\
+  -H "Content-Type: application/json" \\
+  -d '{
+    "model": "<MODEL_ID>",
+    "messages": [{"role": "user", "content": "Hello"}]
+  }'`}</CodeBlock>
+    </div>
+  </section>
+
+  <section className="docsStartSection" aria-labelledby="docs-start-account">
+    <h2 id="docs-start-account">{"Tài khoản và số dư"}</h2>
+    <div className="docsStartFacts">
+      <Link className="docsStartFact" to="/platform/account">
+        <h3>{"Một tài khoản nền tảng"}</h3>
+        <p>{"Đăng ký một lần bằng email hoặc Google để đăng nhập Meet Zai, ZaiDrama và bảng điều khiển nhà phát triển."}</p>
+        <span>{"Tài khoản, credit và hỗ trợ →"}</span>
+      </Link>
+      <Link className="docsStartFact" to="/platform/overview#credits">
+        <h3>{"Số dư USD"}</h3>
+        <p>{"Dùng chung cho API và ZaiDrama. Nạp tiền ở bảng điều khiển hay trong ZaiDrama đều vào cùng một số dư và không hết hạn."}</p>
+        <span>{"Tổng quan nền tảng →"}</span>
+      </Link>
+      <Link className="docsStartFact" to="/zai/plans-and-usage">
+        <h3>{"Gói đồng hành"}</h3>
+        <p>{"Hội viên Meet Zai cùng hạn mức giọng nói và cuộc gọi được mua riêng, không liên quan đến số dư nền tảng."}</p>
+        <span>{"Gói dịch vụ và mức sử dụng →"}</span>
+      </Link>
+    </div>
+  </section>
+
+  <section className="docsStartHelp" aria-label="Trợ giúp">
+    <div>
+      <h2>{"Vẫn còn thắc mắc?"}</h2>
+      <p>{"Trợ lý Zai trên ourzai.com trả lời câu hỏi dựa trên bộ tài liệu này. Với những việc cần người hỗ trợ, hãy gửi email đến support@ourzai.com."}</p>
+    </div>
+    <ul>
+      <li><Link to="/zai/faq">{"Câu hỏi thường gặp về Meet Zai"}</Link></li>
+      <li><Link to="/zaidrama/faq">{"Câu hỏi thường gặp về ZaiDrama"}</Link></li>
+      <li><Link to="/platform/account#support">{"Liên hệ và hỗ trợ"}</Link></li>
+    </ul>
+  </section>
+</div>
