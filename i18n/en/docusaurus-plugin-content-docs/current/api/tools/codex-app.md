@@ -12,7 +12,7 @@ update_docs: none
 The Codex desktop app reads the same configuration file as Codex CLI and the IDE extension: `~/.codex/config.toml` (`%USERPROFILE%\.codex\config.toml` on Windows). Codex calls models through the Responses endpoint, so choose a model that offers `responses`. Check them in [Model catalog and integration](../models.md).
 
 :::tip Prefer not to configure by hand?
-ZAI offers a desktop [key management tool](./key-tool.md) that keeps your API keys in one place and sets up access for you. [Go to download](./key-tool.md#download)
+ZAI offers a desktop [key management tool](./key-tool.mdx) that keeps your API keys in one place and sets up access for you. [Go to download](./key-tool.mdx#download)
 :::
 
 ## Add the provider {#config}

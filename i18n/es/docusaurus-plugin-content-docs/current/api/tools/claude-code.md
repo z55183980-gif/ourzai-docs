@@ -12,7 +12,7 @@ update_docs: none
 Claude Code llama a los modelos mediante el endpoint Anthropic Messages, así que solo funcionan los modelos que ofrecen `messages`. Compruébalos en [Catálogo e integración de modelos](../models.md). Esta página trata de la línea de comandos de Claude Code; para usar Code en la aplicación de escritorio de Claude, consulta [Claude Desktop](./claude-desktop.md).
 
 :::tip ¿Prefieres no configurar a mano?
-ZAI ofrece una [herramienta de gestión de claves](./key-tool.md) de escritorio que reúne tus claves de API en un solo lugar y configura el acceso por ti. [Ir a la descarga](./key-tool.md#download)
+ZAI ofrece una [herramienta de gestión de claves](./key-tool.mdx) de escritorio que reúne tus claves de API en un solo lugar y configura el acceso por ti. [Ir a la descarga](./key-tool.mdx#download)
 :::
 
 ## Variables de entorno para una sesión {#env}

@@ -55,7 +55,7 @@ CI 检查脚本测试、类型、Lint、格式、页面库存、模型文档、�
 | `docs/api/tools/codex-app.md`                   | Codex 桌面版的 config.toml 配置与让应用读到密钥的方法                        | 具体模型名、价格和未验证的工具能力       |
 | `docs/api/tools/cursor.md`                      | Cursor 的密钥、Base URL 覆盖与模型添加步骤                                   | 具体模型名、价格和未验证的工具能力       |
 | `docs/api/tools/cline.md`                       | Cline 的 OpenAI Compatible 服务商配置步骤                                    | 具体模型名、价格和未验证的工具能力       |
-| `docs/api/tools/key-tool.md`                    | 密钥管理工具的用途、各系统安装包下载入口、手动配置教程入口                   | 未发布的安装包地址和未验证的工具能力     |
+| `docs/api/tools/key-tool.mdx`                   | 密钥管理工具的用途、各系统安装包下载入口、手动配置教程入口                   | 未发布的安装包地址和未验证的工具能力     |
 | `docs/api/faq.md`                               | 开发者 API 的可用地区、付款、计费方式、价格入口、与官方 API 的区别等短答     | 具体金额、单价与折扣数字，长篇教程       |
 | `docs/zai/getting-started.md`                   | 遇见 Zai 的入口、首次聊天、账号与权益概览，以及各产品中 Zai 的用途           | 完整设置教程与 API 接入步骤              |
 | `docs/zai/chat-and-voice.md`                    | 文字、语音消息、语音回复、实时通话的操作与权限排查                           | 具体语音模型和额度数字                   |

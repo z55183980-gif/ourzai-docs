@@ -12,7 +12,7 @@ update_docs: none
 Claude Code calls models through the Anthropic Messages endpoint, so only models that offer `messages` work. Check them in [Model catalog and integration](../models.md). This page covers the Claude Code command line; to use Code in the Claude desktop app, see [Claude Desktop](./claude-desktop.md).
 
 :::tip Prefer not to configure by hand?
-ZAI offers a desktop [key management tool](./key-tool.md) that keeps your API keys in one place and sets up access for you. [Go to download](./key-tool.md#download)
+ZAI offers a desktop [key management tool](./key-tool.mdx) that keeps your API keys in one place and sets up access for you. [Go to download](./key-tool.mdx#download)
 :::
 
 ## Use environment variables for one session {#env}

@@ -12,7 +12,7 @@ update_docs: none
 Codex gọi model qua endpoint Responses, nên hãy chọn model hỗ trợ `responses`. Xem danh sách trong [Danh mục và tích hợp mô hình](../models.md). Trang này dành cho Codex dòng lệnh; với ứng dụng Codex trên máy tính, xem [Ứng dụng Codex](./codex-app.md).
 
 :::tip Không muốn thiết lập thủ công?
-ZAI cung cấp [công cụ quản lý khóa](./key-tool.md) trên máy tính, giúp quản lý tập trung các API key và thiết lập kết nối cho bạn. [Đến phần tải xuống](./key-tool.md#download)
+ZAI cung cấp [công cụ quản lý khóa](./key-tool.mdx) trên máy tính, giúp quản lý tập trung các API key và thiết lập kết nối cho bạn. [Đến phần tải xuống](./key-tool.mdx#download)
 :::
 
 ## Thêm nhà cung cấp {#config}

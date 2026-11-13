@@ -91,6 +91,46 @@ test("chunks carry product scope, heading path, and anchored absolute URLs", asy
   assert.ok(!index.chunks.some((chunk) => chunk.url === "https://docs.example.com/"), ".mdx 首页不产段落");
 });
 
+test("download guide retains direct installer links and anchored chunks after MDX rendering", async () => {
+  const siteDir = fixtureSite();
+  write(
+    siteDir,
+    "docs/api/tools/key-tool.mdx",
+    [
+      "---",
+      "id: key-tool",
+      "title: Key Manager",
+      "---",
+      "",
+      'import KeyToolDownload from "@site/src/components/KeyToolDownload";',
+      "",
+      "# Key Manager {#key-tool}",
+      "",
+      "## Download {#download}",
+      "",
+      '<KeyToolDownload keysLabel="Keys" previewLabel="App preview">',
+      "",
+      "[Windows](https://ourzai.com/downloads/key-manager/0.2.6/zAI-Key-Manager_Windows_x64-setup.exe)",
+      "",
+      "</KeyToolDownload>",
+      "",
+      "## Manual setup {#manual}",
+      "",
+      "Keep the existing guide.",
+    ].join("\n"),
+  );
+  const outDir = await runBuild(siteDir, ["/", "/api/quickstart", "/api/errors", "/api/tools/key-tool"]);
+  const markdown = readFileSync(join(outDir, "api/tools/key-tool.md"), "utf8");
+  assert.match(markdown, /https:\/\/ourzai.com\/downloads\/key-manager\/0.2.6\//);
+  assert.doesNotMatch(markdown, /KeyToolDownload|keysLabel|import /);
+  const index = JSON.parse(readFileSync(join(outDir, "ai-index.json"), "utf8"));
+  assert.ok(
+    index.chunks.some(
+      (chunk) => chunk.url.endsWith("/api/tools/key-tool#download") && chunk.text.includes("setup.exe"),
+    ),
+  );
+});
+
 test("writes llms.txt and per-page markdown", async () => {
   const siteDir = fixtureSite();
   const outDir = await runBuild(siteDir, ["/", "/api/quickstart", "/api/errors"]);

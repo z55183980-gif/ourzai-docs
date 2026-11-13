@@ -7,13 +7,27 @@ sidebar_position: 7
 update_docs: none
 ---
 
+import KeyToolDownload from "@site/src/components/KeyToolDownload";
+
 # 密钥管理工具 {#key-tool}
 
 密钥管理工具是 ZAI 提供的桌面应用，用来集中管理你的 API 密钥，并为 Claude 与 Codex 配置 ZAI API 接入，不用手动编辑配置文件。密钥仍然在[开发者控制台](https://ourzai.com/console)「API 密钥」里新建。
 
 ## 下载 {#download}
 
-[前往下载页](https://ourzai.com/tools/key-manager)选择 Windows 或 macOS 版本。
+<KeyToolDownload keysLabel="密钥" previewLabel="应用预览">
+
+[Windows 版 · v0.2.6](https://ourzai.com/downloads/key-manager/0.2.6/zAI-Key-Manager_Windows_x64-setup.exe)
+
+Windows · x64
+
+[macOS 版 · v0.2.6](https://ourzai.com/downloads/key-manager/0.2.6/zAI-Key-Manager_macOS.dmg)
+
+macOS 12+ · Intel / Apple Silicon
+
+[GitHub 源码](https://github.com/z55183980-gif/ourzai-keytool)
+
+</KeyToolDownload>
 
 安装后，登录导入或手动添加密钥，选择客户端与模型即可启动。Claude 与 Codex 需单独安装。
 

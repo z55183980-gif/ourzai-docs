@@ -192,9 +192,16 @@ export default function aiIndexPlugin(context) {
         const productLabel = categoryLabel(docsRoot, sourceRoot, localizationDir, topDir || "platform");
         const title = source.data.title || source.relPath;
         const url = `${origin}${source.route}`;
-        const isMdx = source.relPath.endsWith(".mdx");
-        // .mdx 页（首页）是 JSX 版面，不产正文段落；它在目录里出现，内容由各页承担
-        const body = isMdx ? "" : absolutizeLinks(source.body, source.relPath, routeBySource, origin);
+        // The download guide keeps its Markdown links and prose inside one visual wrapper.
+        // Strip only that known wrapper; other JSX layouts still use their description.
+        const downloadGuide = source.relPath === "api/tools/key-tool.mdx";
+        const isMdx = source.relPath.endsWith(".mdx") && !downloadGuide;
+        const markdown = downloadGuide
+          ? source.body
+              .replace(/^import KeyToolDownload[^\n]*\n/gm, "")
+              .replace(/^<\/?KeyToolDownload\b[^>]*>\s*$/gm, "")
+          : source.body;
+        const body = isMdx ? "" : absolutizeLinks(markdown, source.relPath, routeBySource, origin);
         const markdownPath = source.route === baseUrl ? `${baseUrl}index.md` : `${source.route}.md`;
         const page = {
           url,
