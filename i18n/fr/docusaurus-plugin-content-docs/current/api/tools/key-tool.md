@@ -13,12 +13,9 @@ L'outil de gestion des clés est une application de bureau proposée par ZAI. Il
 
 ## Télécharger {#download}
 
-| Système | Programme d'installation |
-| --- | --- |
-| Windows | Bientôt disponible |
-| macOS | Bientôt disponible |
+[Ouvrez la page de téléchargement](https://ourzai.com/tools/key-manager) pour choisir Windows ou macOS.
 
-Les liens de téléchargement apparaîtront sur cette page dès la publication des programmes d'installation. En attendant, configurez chaque outil à la main à l'aide des guides ci-dessous.
+Après l’installation, connectez-vous pour importer vos clés ou ajoutez-en une manuellement, puis choisissez un client et un modèle à lancer. Installez Claude ou Codex séparément.
 
 ## Configuration manuelle {#manual}
 

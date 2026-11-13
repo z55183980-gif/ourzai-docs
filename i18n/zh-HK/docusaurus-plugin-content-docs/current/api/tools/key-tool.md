@@ -13,12 +13,9 @@ update_docs: none
 
 ## 下載 {#download}
 
-| 系統 | 安裝程式 |
-| --- | --- |
-| Windows | 即將提供 |
-| macOS | 即將提供 |
+[前往下載頁](https://ourzai.com/tools/key-manager)選擇 Windows 或 macOS 版本。
 
-安裝程式發佈後會在本頁提供下載連結。在此之前，請按下面的教程手動配置。
+安裝後，登入匯入或手動新增密鑰，選擇客戶端與模型即可啟動。Claude 與 Codex 需另外安裝。
 
 ## 手動配置 {#manual}
 

@@ -13,12 +13,9 @@ La herramienta de gestión de claves es una aplicación de escritorio de ZAI. Re
 
 ## Descargar {#download}
 
-| Sistema | Instalador |
-| --- | --- |
-| Windows | Próximamente |
-| macOS | Próximamente |
+[Abre la página de descarga](https://ourzai.com/tools/key-manager) para elegir Windows o macOS.
 
-Los enlaces de descarga aparecerán en esta página cuando se publiquen los instaladores. Mientras tanto, configura cada herramienta a mano con las guías siguientes.
+Tras instalar, inicia sesión para importar claves o añade una manualmente, y elige el cliente y el modelo que quieras iniciar. Instala Claude o Codex por separado.
 
 ## Configuración manual {#manual}
 

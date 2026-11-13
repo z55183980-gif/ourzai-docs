@@ -13,12 +13,9 @@ Công cụ quản lý khóa là ứng dụng máy tính do ZAI cung cấp. Công
 
 ## Tải xuống {#download}
 
-| Hệ điều hành | Bộ cài đặt |
-| --- | --- |
-| Windows | Sắp ra mắt |
-| macOS | Sắp ra mắt |
+[Mở trang tải xuống](https://ourzai.com/tools/key-manager) để chọn Windows hoặc macOS.
 
-Liên kết tải xuống sẽ có trên trang này sau khi bộ cài đặt được phát hành. Trong thời gian đó, hãy thiết lập thủ công từng công cụ theo các hướng dẫn bên dưới.
+Sau khi cài đặt, đăng nhập để nhập khóa hoặc thêm thủ công, rồi chọn ứng dụng và mô hình để khởi chạy. Bạn cần cài Claude hoặc Codex riêng.
 
 ## Thiết lập thủ công {#manual}
 

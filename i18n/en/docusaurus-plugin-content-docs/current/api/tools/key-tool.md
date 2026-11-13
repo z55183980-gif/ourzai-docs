@@ -13,12 +13,9 @@ The key management tool is a desktop app from ZAI. It keeps your API keys in one
 
 ## Download {#download}
 
-| System | Installer |
-| --- | --- |
-| Windows | Coming soon |
-| macOS | Coming soon |
+[Open the download page](https://ourzai.com/tools/key-manager) to choose Windows or macOS.
 
-Download links will appear on this page once the installers are released. Until then, set up each tool by hand with the guides below.
+After installation, sign in to import keys or add one manually, then choose a client and model to launch. Install Claude or Codex separately.
 
 ## Manual setup {#manual}
 
