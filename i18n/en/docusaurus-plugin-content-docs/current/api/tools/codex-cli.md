@@ -11,6 +11,10 @@ update_docs: none
 
 Codex calls models through the Responses endpoint, so choose a model that offers `responses`. Check them in [Model catalog and integration](../models.md). This page covers the Codex command line; for the Codex desktop app, see [Codex app](./codex-app.md).
 
+:::tip Prefer not to configure by hand?
+ZAI offers a desktop [key management tool](./key-tool.md) that keeps your API keys in one place and sets up access for you. [Go to download](./key-tool.md#download)
+:::
+
 ## Add the provider {#config}
 
 Add the following to `~/.codex/config.toml` (`%USERPROFILE%\.codex\config.toml` on Windows):

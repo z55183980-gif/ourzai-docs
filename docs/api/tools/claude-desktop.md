@@ -11,6 +11,10 @@ update_docs: none
 
 Claude 桌面应用（macOS、Windows）可以通过「第三方推理」配置改用 ZAI API。配置后，应用里的 Chat、Cowork 和 Code 都通过 Anthropic Messages 接口请求 ZAI API，并按用量从余额扣费，因此只能选开放 `messages` 的模型，在[模型目录与接入](../models.md)里查看。
 
+:::tip 不想手动配置？
+ZAI 提供桌面端的[密钥管理工具](./key-tool.md)，用来集中管理 API 密钥并配置接入。[前往下载](./key-tool.md#download)
+:::
+
 :::note 环境变量对桌面版无效
 桌面版 Code 的本地会话会使用应用自己设置的接口地址，在终端、系统环境变量或 `~/.claude/settings.json` 里设置的 `ANTHROPIC_BASE_URL` 都不会生效。请按本页步骤在应用内配置。只用命令行版时，见 [Claude Code](./claude-code.md)。
 :::

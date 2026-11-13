@@ -11,6 +11,10 @@ update_docs: none
 
 Claude デスクトップアプリ（macOS、Windows）は、サードパーティ推論の設定で ZAI API に切り替えられます。設定後は、アプリ内の Chat、Cowork、Code のリクエストがすべて Anthropic Messages エンドポイント経由で ZAI API に送られ、使用量に応じて残高から差し引かれます。`messages` を提供するモデルだけが使えます。[モデル一覧と接続方法](../models.md)で確認してください。
 
+:::tip 手動での設定を省きたい場合
+ZAI はデスクトップ向けの[キー管理ツール](./key-tool.md)を提供しています。API キーをまとめて管理し、接続の設定も行えます。[ダウンロードはこちら](./key-tool.md#download)
+:::
+
 :::note デスクトップアプリでは環境変数は効きません
 デスクトップアプリの Code のローカルセッションは、アプリ自身が設定するエンドポイントを使います。そのため `ANTHROPIC_BASE_URL` は、ターミナル、システムの環境変数、`~/.claude/settings.json` のどこで設定しても反映されません。このページの手順でアプリ内から設定してください。コマンドラインだけを使う場合は、[Claude Code](./claude-code.md) を参照してください。
 :::

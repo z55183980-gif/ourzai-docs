@@ -11,6 +11,10 @@ update_docs: none
 
 Codex appelle les modèles via le point de terminaison Responses : choisissez donc un modèle qui propose `responses`. Vérifiez-les dans [Catalogue et intégration des modèles](../models.md). Cette page concerne Codex en ligne de commande ; pour l'application de bureau Codex, voir [Application Codex](./codex-app.md).
 
+:::tip Vous préférez éviter la configuration manuelle ?
+ZAI propose un [outil de gestion des clés](./key-tool.md) pour ordinateur, qui regroupe vos clés API au même endroit et configure l'accès pour vous. [Accéder au téléchargement](./key-tool.md#download)
+:::
+
 ## Ajouter le fournisseur {#config}
 
 Ajoutez ce qui suit à `~/.codex/config.toml` (`%USERPROFILE%\.codex\config.toml` sous Windows) :

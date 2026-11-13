@@ -11,6 +11,10 @@ update_docs: none
 
 La aplicación de escritorio de Codex lee el mismo archivo de configuración que Codex CLI y la extensión para IDE: `~/.codex/config.toml` (`%USERPROFILE%\.codex\config.toml` en Windows). Codex llama a los modelos mediante el endpoint Responses, así que elige un modelo que ofrezca `responses`. Compruébalos en [Catálogo e integración de modelos](../models.md).
 
+:::tip ¿Prefieres no configurar a mano?
+ZAI ofrece una [herramienta de gestión de claves](./key-tool.md) de escritorio que reúne tus claves de API en un solo lugar y configura el acceso por ti. [Ir a la descarga](./key-tool.md#download)
+:::
+
 ## Añadir el proveedor {#config}
 
 Abre `config.toml` (los ajustes de la aplicación también permiten abrir el archivo de configuración) y añade lo siguiente en el nivel superior del archivo:

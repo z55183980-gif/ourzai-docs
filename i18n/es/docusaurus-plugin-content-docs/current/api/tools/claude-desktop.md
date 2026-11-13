@@ -11,6 +11,10 @@ update_docs: none
 
 La aplicación de escritorio de Claude (macOS y Windows) puede pasar a usar la API de ZAI mediante su configuración de inferencia de terceros. Una vez configurada, Chat, Cowork y Code envían todas sus solicitudes a la API de ZAI mediante el endpoint Anthropic Messages, y se cobran de tu saldo según el uso. Solo funcionan los modelos que ofrecen `messages`; compruébalos en [Catálogo e integración de modelos](../models.md).
 
+:::tip ¿Prefieres no configurar a mano?
+ZAI ofrece una [herramienta de gestión de claves](./key-tool.md) de escritorio que reúne tus claves de API en un solo lugar y configura el acceso por ti. [Ir a la descarga](./key-tool.md#download)
+:::
+
 :::note Las variables de entorno no funcionan en la aplicación de escritorio
 Las sesiones locales de Code en la aplicación de escritorio usan un endpoint que fija la propia aplicación, así que `ANTHROPIC_BASE_URL` no tiene efecto, la definas en un terminal, en las variables de entorno del sistema o en `~/.claude/settings.json`. Configura la aplicación con los pasos de esta página. Si solo usas la línea de comandos, consulta [Claude Code](./claude-code.md).
 :::

@@ -11,6 +11,10 @@ update_docs: none
 
 Codex 桌面應用程式和 Codex CLI、IDE 擴充功能讀取同一個設定檔 `~/.codex/config.toml`（Windows 為 `%USERPROFILE%\.codex\config.toml`）。Codex 透過 Responses 接口調用模型，要選開放 `responses` 的模型，在[模型目錄與接入](../models.md)裡查看。
 
+:::tip 不想手動配置？
+ZAI 提供桌面端的[密鑰管理工具](./key-tool.md)，用來集中管理 API 密鑰並配置接入。[前往下載](./key-tool.md#download)
+:::
+
 ## 加入服務商 {#config}
 
 打開 `config.toml`（也可以在應用程式的設定裡找到打開設定檔的入口），在檔案頂層加入：

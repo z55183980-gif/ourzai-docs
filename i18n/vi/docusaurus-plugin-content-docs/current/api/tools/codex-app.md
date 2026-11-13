@@ -11,6 +11,10 @@ update_docs: none
 
 Ứng dụng Codex trên máy tính đọc cùng tệp cấu hình với Codex CLI và tiện ích IDE: `~/.codex/config.toml` (`%USERPROFILE%\.codex\config.toml` trên Windows). Codex gọi model qua endpoint Responses, nên hãy chọn model hỗ trợ `responses`. Xem danh sách trong [Danh mục và tích hợp mô hình](../models.md).
 
+:::tip Không muốn thiết lập thủ công?
+ZAI cung cấp [công cụ quản lý khóa](./key-tool.md) trên máy tính, giúp quản lý tập trung các API key và thiết lập kết nối cho bạn. [Đến phần tải xuống](./key-tool.md#download)
+:::
+
 ## Thêm nhà cung cấp {#config}
 
 Mở `config.toml` (phần cài đặt của ứng dụng cũng có lối mở tệp cấu hình) và thêm nội dung sau ở cấp cao nhất của tệp:

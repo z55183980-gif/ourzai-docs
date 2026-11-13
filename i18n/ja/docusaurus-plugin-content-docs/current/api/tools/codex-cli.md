@@ -11,6 +11,10 @@ update_docs: none
 
 Codex は Responses エンドポイントでモデルを呼び出すため、`responses` を提供するモデルを選んでください。[モデル一覧と接続方法](../models.md)で確認できます。このページはコマンドライン版の Codex を対象としています。Codex デスクトップアプリについては、[Codex アプリ](./codex-app.md)を参照してください。
 
+:::tip 手動での設定を省きたい場合
+ZAI はデスクトップ向けの[キー管理ツール](./key-tool.md)を提供しています。API キーをまとめて管理し、接続の設定も行えます。[ダウンロードはこちら](./key-tool.md#download)
+:::
+
 ## プロバイダーを追加する {#config}
 
 `~/.codex/config.toml`（Windows では `%USERPROFILE%\.codex\config.toml`）に次の内容を追加します。
