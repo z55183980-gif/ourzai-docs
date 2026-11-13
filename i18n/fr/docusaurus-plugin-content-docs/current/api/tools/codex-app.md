@@ -11,6 +11,10 @@ update_docs: none
 
 L'application de bureau Codex lit le même fichier de configuration que Codex CLI et l'extension IDE : `~/.codex/config.toml` (`%USERPROFILE%\.codex\config.toml` sous Windows). Codex appelle les modèles via le point de terminaison Responses : choisissez donc un modèle qui propose `responses`. Vérifiez-les dans [Catalogue et intégration des modèles](../models.md).
 
+:::tip Vous préférez éviter la configuration manuelle ?
+ZAI propose un [outil de gestion des clés](./key-tool.md) pour ordinateur, qui regroupe vos clés API au même endroit et configure l'accès pour vous. [Accéder au téléchargement](./key-tool.md#download)
+:::
+
 ## Ajouter le fournisseur {#config}
 
 Ouvrez `config.toml` (les réglages de l'application permettent aussi d'ouvrir le fichier de configuration) et ajoutez ce qui suit au premier niveau du fichier :

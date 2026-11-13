@@ -11,6 +11,10 @@ update_docs: none
 
 Claude Code gọi model qua endpoint Anthropic Messages, nên chỉ dùng được các model hỗ trợ `messages`. Xem danh sách trong [Danh mục và tích hợp mô hình](../models.md). Trang này dành cho Claude Code dòng lệnh; để dùng Code trong ứng dụng Claude trên máy tính, xem [Claude Desktop](./claude-desktop.md).
 
+:::tip Không muốn thiết lập thủ công?
+ZAI cung cấp [công cụ quản lý khóa](./key-tool.md) trên máy tính, giúp quản lý tập trung các API key và thiết lập kết nối cho bạn. [Đến phần tải xuống](./key-tool.md#download)
+:::
+
 ## Dùng biến môi trường cho một phiên {#env}
 
 Đặt các biến môi trường sau trong terminal nơi bạn khởi động Claude Code:

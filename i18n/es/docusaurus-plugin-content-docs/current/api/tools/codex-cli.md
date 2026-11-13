@@ -11,6 +11,10 @@ update_docs: none
 
 Codex llama a los modelos mediante el endpoint Responses, así que elige un modelo que ofrezca `responses`. Compruébalos en [Catálogo e integración de modelos](../models.md). Esta página trata de la línea de comandos de Codex; para la aplicación de escritorio de Codex, consulta [App de Codex](./codex-app.md).
 
+:::tip ¿Prefieres no configurar a mano?
+ZAI ofrece una [herramienta de gestión de claves](./key-tool.md) de escritorio que reúne tus claves de API en un solo lugar y configura el acceso por ti. [Ir a la descarga](./key-tool.md#download)
+:::
+
 ## Añadir el proveedor {#config}
 
 Añade lo siguiente a `~/.codex/config.toml` (`%USERPROFILE%\.codex\config.toml` en Windows):

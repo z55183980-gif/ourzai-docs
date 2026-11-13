@@ -11,6 +11,10 @@ update_docs: none
 
 The Claude desktop app (macOS and Windows) can switch to the ZAI API through its third-party inference configuration. Once configured, Chat, Cowork, and Code in the app all send requests to the ZAI API through the Anthropic Messages endpoint, charged to your balance by usage. Only models that offer `messages` work; check them in [Model catalog and integration](../models.md).
 
+:::tip Prefer not to configure by hand?
+ZAI offers a desktop [key management tool](./key-tool.md) that keeps your API keys in one place and sets up access for you. [Go to download](./key-tool.md#download)
+:::
+
 :::note Environment variables do not work in the desktop app
 Local Code sessions in the desktop app use an endpoint the app sets itself, so `ANTHROPIC_BASE_URL` has no effect whether you set it in a terminal, in system environment variables, or in `~/.claude/settings.json`. Configure the app with the steps on this page instead. For the command line only, see [Claude Code](./claude-code.md).
 :::

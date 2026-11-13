@@ -11,6 +11,10 @@ update_docs: none
 
 Claude Code appelle les modèles via le point de terminaison Anthropic Messages : seuls les modèles qui proposent `messages` fonctionnent. Vérifiez-les dans [Catalogue et intégration des modèles](../models.md). Cette page concerne Claude Code en ligne de commande ; pour utiliser Code dans l'application de bureau Claude, voir [Claude Desktop](./claude-desktop.md).
 
+:::tip Vous préférez éviter la configuration manuelle ?
+ZAI propose un [outil de gestion des clés](./key-tool.md) pour ordinateur, qui regroupe vos clés API au même endroit et configure l'accès pour vous. [Accéder au téléchargement](./key-tool.md#download)
+:::
+
 ## Variables d'environnement pour une session {#env}
 
 Définissez ces variables d'environnement dans le terminal où vous lancez Claude Code :

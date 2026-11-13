@@ -11,6 +11,10 @@ update_docs: none
 
 Codex 通过 Responses 接口调用模型，要选开放 `responses` 的模型，在[模型目录与接入](../models.md)里查看。本页适用于命令行版 Codex；Codex 桌面应用见 [Codex 桌面版](./codex-app.md)。
 
+:::tip 不想手动配置？
+ZAI 提供桌面端的[密钥管理工具](./key-tool.md)，用来集中管理 API 密钥并配置接入。[前往下载](./key-tool.md#download)
+:::
+
 ## 添加服务商 {#config}
 
 在 `~/.codex/config.toml`（Windows 为 `%USERPROFILE%\.codex\config.toml`）中添加：

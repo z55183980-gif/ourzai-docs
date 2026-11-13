@@ -33,11 +33,12 @@
   "docs/api/models/claude-sonnet-5-5.md": "2add331aede648e13c264237d0a07e8ebb5c2a3c0da399f49547bd2f8100e541",
   "docs/api/faq.md": "e946a22358000f513771765b9d75cc825339cb4ca2c3bc83339cc18c7b44bab7",
   "README.md": "2131f497bf93757e5dfa633ed1e66afe75299fb011245c0e34f26f037aedf70d",
-  "docs/api/tools/claude-code.md": "f059f32f3c6951f6d7f1d570f5038ae2d08f7d320a45d501adaf7aea95ecf7b5",
-  "docs/api/tools/claude-desktop.md": "cedc40a13e4e61bef0175befc4e6b4d9e84e9d56ee1d7118c3233c9c37943c5b",
+  "docs/api/tools/claude-code.md": "a2c4ed611f43a4bb7d80162d11c8669197323c30f17f529b9d0cc6f04c69de3e",
+  "docs/api/tools/claude-desktop.md": "5917d2bcbacb174b9e0a5571ccc073065e1d064035a39550cb389d1c7db131e5",
   "docs/api/tools/cline.md": "a9a8e41614b29eb19bab5647a2dd598a67a034897286c65167193e7913a655a7",
-  "docs/api/tools/codex-app.md": "2b32d362878a5539229f98e5d577d4f29fa89e934e334c5a2dd365feb973a8ea",
-  "docs/api/tools/codex-cli.md": "57f5ec65cb0c62125fde859a0cf8ca52d9fb528e165998e1594374432e390edc",
+  "docs/api/tools/codex-app.md": "f37d44b10c99d78796344fce2cc57cb97ad8bdc23214f2234452052136f233b6",
+  "docs/api/tools/codex-cli.md": "b471517c48b2d2b3ed1029f83589fd3cbe7a00222074de3f194a74519f6c1e01",
   "docs/api/tools/cursor.md": "94b6bac3f51046b64853f7a8df1b415993025ba986c5d1b966cb85f918ef566f",
-  "docs/api/tools/tools.md": "de615ce84cfd94e6af4b1786e3c72a338c9f91b0b18008866966b1a0295babda"
+  "docs/api/tools/tools.md": "de615ce84cfd94e6af4b1786e3c72a338c9f91b0b18008866966b1a0295babda",
+  "docs/api/tools/key-tool.md": "1f956c924e63d9b4f37168923915ea66d164218edb9f94f76594831d00a1c232"
 }

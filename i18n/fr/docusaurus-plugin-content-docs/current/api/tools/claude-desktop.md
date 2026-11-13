@@ -11,6 +11,10 @@ update_docs: none
 
 L'application de bureau Claude (macOS et Windows) peut basculer vers l'API ZAI grâce à sa configuration d'inférence tierce. Une fois configurée, Chat, Cowork et Code envoient tous leurs requêtes à l'API ZAI via le point de terminaison Anthropic Messages, déduites de votre solde selon l'usage. Seuls les modèles qui proposent `messages` fonctionnent ; vérifiez-les dans [Catalogue et intégration des modèles](../models.md).
 
+:::tip Vous préférez éviter la configuration manuelle ?
+ZAI propose un [outil de gestion des clés](./key-tool.md) pour ordinateur, qui regroupe vos clés API au même endroit et configure l'accès pour vous. [Accéder au téléchargement](./key-tool.md#download)
+:::
+
 :::note Les variables d'environnement sont sans effet dans l'application de bureau
 Les sessions Code locales de l'application de bureau utilisent un point de terminaison défini par l'application elle-même : `ANTHROPIC_BASE_URL` est ignorée, qu'elle soit définie dans un terminal, dans les variables d'environnement du système ou dans `~/.claude/settings.json`. Configurez plutôt l'application en suivant cette page. Pour la ligne de commande seule, voir [Claude Code](./claude-code.md).
 :::
