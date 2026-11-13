@@ -12,7 +12,7 @@ update_docs: none
 Claude Code は Anthropic Messages エンドポイントでモデルを呼び出すため、`messages` を提供するモデルだけが使えます。[モデル一覧と接続方法](../models.md)で確認してください。このページはコマンドライン版の Claude Code を対象としています。Claude デスクトップアプリで Code を使う場合は、[Claude Desktop](./claude-desktop.md) を参照してください。
 
 :::tip 手動での設定を省きたい場合
-ZAI はデスクトップ向けの[キー管理ツール](./key-tool.md)を提供しています。API キーをまとめて管理し、接続の設定も行えます。[ダウンロードはこちら](./key-tool.md#download)
+ZAI はデスクトップ向けの[キー管理ツール](./key-tool.mdx)を提供しています。API キーをまとめて管理し、接続の設定も行えます。[ダウンロードはこちら](./key-tool.mdx#download)
 :::
 
 ## 環境変数で一時的に設定する {#env}

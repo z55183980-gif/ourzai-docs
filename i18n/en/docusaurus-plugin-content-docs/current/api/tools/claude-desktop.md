@@ -12,7 +12,7 @@ update_docs: none
 The Claude desktop app (macOS and Windows) can switch to the ZAI API through its third-party inference configuration. Once configured, Chat, Cowork, and Code in the app all send requests to the ZAI API through the Anthropic Messages endpoint, charged to your balance by usage. Only models that offer `messages` work; check them in [Model catalog and integration](../models.md).
 
 :::tip Prefer not to configure by hand?
-ZAI offers a desktop [key management tool](./key-tool.md) that keeps your API keys in one place and sets up access for you. [Go to download](./key-tool.md#download)
+ZAI offers a desktop [key management tool](./key-tool.mdx) that keeps your API keys in one place and sets up access for you. [Go to download](./key-tool.mdx#download)
 :::
 
 :::note Environment variables do not work in the desktop app

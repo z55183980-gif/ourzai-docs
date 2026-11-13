@@ -81,11 +81,11 @@
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "docs/api/tools/claude-code.md",
-    "sha256": "a2c4ed611f43a4bb7d80162d11c8669197323c30f17f529b9d0cc6f04c69de3e"
+    "sha256": "25761ce22b765db8a7656fcd989841fb1528ca4ce95ded15c277c46404e75d95"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "docs/api/tools/claude-desktop.md",
-    "sha256": "5917d2bcbacb174b9e0a5571ccc073065e1d064035a39550cb389d1c7db131e5"
+    "sha256": "f5a628fcab2079e351c785d32c7801481f41aa7d999238e7d3259daf9950b482"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "docs/api/tools/cline.md",
@@ -93,19 +93,19 @@
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
     "source": "docs/api/tools/codex-app.md",
-    "sha256": "f37d44b10c99d78796344fce2cc57cb97ad8bdc23214f2234452052136f233b6"
+    "sha256": "4827ac13a9ae09cda3cc577e220fdd925ba22cd87c839856dfafa374cac4d152"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
     "source": "docs/api/tools/codex-cli.md",
-    "sha256": "b471517c48b2d2b3ed1029f83589fd3cbe7a00222074de3f194a74519f6c1e01"
+    "sha256": "9e685aea42ccf527fc2a28c2ba23716c9fdd49862af6976bd9daf915a821eb03"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
     "source": "docs/api/tools/cursor.md",
     "sha256": "94b6bac3f51046b64853f7a8df1b415993025ba986c5d1b966cb85f918ef566f"
   },
-  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/key-tool.md": {
-    "source": "docs/api/tools/key-tool.md",
-    "sha256": "1f956c924e63d9b4f37168923915ea66d164218edb9f94f76594831d00a1c232"
+  "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
+    "source": "docs/api/tools/key-tool.mdx",
+    "sha256": "6d6d174e0f3e257a79c296484040eb28d51bf07fac3a1435f2a0403d756e0e60"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "docs/api/tools/tools.md",
@@ -265,11 +265,11 @@
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
-    "sha256": "891d12d8a89e307722dd15a795a09e96d218dd09f052dd81352979f9c6ebea71"
+    "sha256": "29f9ad6c17633c73b0cc3abd8fbd9053818044e9f0d8d4bebb3bd192a68bdbe0"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "33bd1a68f9e26feb4927ba875faf593f039d4f60f400b1a1bc01457bcb9be5d4"
+    "sha256": "ce5bd259df0b8e93db15802cc3de08b439e47fef4fe4540f0eaca17c8abc1266"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -277,19 +277,19 @@
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-app.md",
-    "sha256": "150d33b47cbe7a8c90b1019e92517f3dadb3c5766a294c80a6b8ae1ab6eea5bc"
+    "sha256": "37b4a37a7e51e00ffc99c25fadb26c0236913838ba86009714b36a382b07b204"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md",
-    "sha256": "b1c3fbed5f47e1811e2b93b1c10150c94a53ba153cc816d521ac16f104225e04"
+    "sha256": "8ce7f5f0c41ba4a9bebe3f2fcced47d85d6ed213739412467027b9feb65985bd"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cursor.md",
     "sha256": "54c9ea274391418f46e485cdc5bdad267ac6da2494dd38db58cd5be7af60d5b3"
   },
-  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/key-tool.md": {
-    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.md",
-    "sha256": "e3b5b08f9fe08ee5ba469d8040d9d14cddd1b1e5104396821df7c103e1ce5fac"
+  "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx",
+    "sha256": "f44d06fa85fb0a31ad5c46f7b516ea5ec1b1fde5e96a62646774c38834dda543"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
@@ -449,11 +449,11 @@
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
-    "sha256": "891d12d8a89e307722dd15a795a09e96d218dd09f052dd81352979f9c6ebea71"
+    "sha256": "29f9ad6c17633c73b0cc3abd8fbd9053818044e9f0d8d4bebb3bd192a68bdbe0"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "33bd1a68f9e26feb4927ba875faf593f039d4f60f400b1a1bc01457bcb9be5d4"
+    "sha256": "ce5bd259df0b8e93db15802cc3de08b439e47fef4fe4540f0eaca17c8abc1266"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -461,19 +461,19 @@
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-app.md",
-    "sha256": "150d33b47cbe7a8c90b1019e92517f3dadb3c5766a294c80a6b8ae1ab6eea5bc"
+    "sha256": "37b4a37a7e51e00ffc99c25fadb26c0236913838ba86009714b36a382b07b204"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md",
-    "sha256": "b1c3fbed5f47e1811e2b93b1c10150c94a53ba153cc816d521ac16f104225e04"
+    "sha256": "8ce7f5f0c41ba4a9bebe3f2fcced47d85d6ed213739412467027b9feb65985bd"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cursor.md",
     "sha256": "54c9ea274391418f46e485cdc5bdad267ac6da2494dd38db58cd5be7af60d5b3"
   },
-  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/key-tool.md": {
-    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.md",
-    "sha256": "e3b5b08f9fe08ee5ba469d8040d9d14cddd1b1e5104396821df7c103e1ce5fac"
+  "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx",
+    "sha256": "f44d06fa85fb0a31ad5c46f7b516ea5ec1b1fde5e96a62646774c38834dda543"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
@@ -633,11 +633,11 @@
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
-    "sha256": "891d12d8a89e307722dd15a795a09e96d218dd09f052dd81352979f9c6ebea71"
+    "sha256": "29f9ad6c17633c73b0cc3abd8fbd9053818044e9f0d8d4bebb3bd192a68bdbe0"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "33bd1a68f9e26feb4927ba875faf593f039d4f60f400b1a1bc01457bcb9be5d4"
+    "sha256": "ce5bd259df0b8e93db15802cc3de08b439e47fef4fe4540f0eaca17c8abc1266"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -645,19 +645,19 @@
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-app.md",
-    "sha256": "150d33b47cbe7a8c90b1019e92517f3dadb3c5766a294c80a6b8ae1ab6eea5bc"
+    "sha256": "37b4a37a7e51e00ffc99c25fadb26c0236913838ba86009714b36a382b07b204"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md",
-    "sha256": "b1c3fbed5f47e1811e2b93b1c10150c94a53ba153cc816d521ac16f104225e04"
+    "sha256": "8ce7f5f0c41ba4a9bebe3f2fcced47d85d6ed213739412467027b9feb65985bd"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cursor.md",
     "sha256": "54c9ea274391418f46e485cdc5bdad267ac6da2494dd38db58cd5be7af60d5b3"
   },
-  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/key-tool.md": {
-    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.md",
-    "sha256": "e3b5b08f9fe08ee5ba469d8040d9d14cddd1b1e5104396821df7c103e1ce5fac"
+  "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx",
+    "sha256": "f44d06fa85fb0a31ad5c46f7b516ea5ec1b1fde5e96a62646774c38834dda543"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
@@ -817,11 +817,11 @@
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
-    "sha256": "891d12d8a89e307722dd15a795a09e96d218dd09f052dd81352979f9c6ebea71"
+    "sha256": "29f9ad6c17633c73b0cc3abd8fbd9053818044e9f0d8d4bebb3bd192a68bdbe0"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "33bd1a68f9e26feb4927ba875faf593f039d4f60f400b1a1bc01457bcb9be5d4"
+    "sha256": "ce5bd259df0b8e93db15802cc3de08b439e47fef4fe4540f0eaca17c8abc1266"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -829,19 +829,19 @@
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/codex-app.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-app.md",
-    "sha256": "150d33b47cbe7a8c90b1019e92517f3dadb3c5766a294c80a6b8ae1ab6eea5bc"
+    "sha256": "37b4a37a7e51e00ffc99c25fadb26c0236913838ba86009714b36a382b07b204"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/codex-cli.md",
-    "sha256": "b1c3fbed5f47e1811e2b93b1c10150c94a53ba153cc816d521ac16f104225e04"
+    "sha256": "8ce7f5f0c41ba4a9bebe3f2fcced47d85d6ed213739412467027b9feb65985bd"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/cursor.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cursor.md",
     "sha256": "54c9ea274391418f46e485cdc5bdad267ac6da2494dd38db58cd5be7af60d5b3"
   },
-  "i18n/es/docusaurus-plugin-content-docs/current/api/tools/key-tool.md": {
-    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.md",
-    "sha256": "e3b5b08f9fe08ee5ba469d8040d9d14cddd1b1e5104396821df7c103e1ce5fac"
+  "i18n/es/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
+    "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx",
+    "sha256": "f44d06fa85fb0a31ad5c46f7b516ea5ec1b1fde5e96a62646774c38834dda543"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",

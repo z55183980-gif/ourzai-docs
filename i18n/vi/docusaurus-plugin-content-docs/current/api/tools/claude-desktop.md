@@ -12,7 +12,7 @@ update_docs: none
 Ứng dụng Claude trên máy tính (macOS và Windows) có thể chuyển sang dùng ZAI API qua cấu hình suy luận bên thứ ba. Sau khi cấu hình, Chat, Cowork và Code trong ứng dụng đều gửi yêu cầu tới ZAI API qua endpoint Anthropic Messages và bị trừ vào số dư theo mức sử dụng. Chỉ dùng được các model hỗ trợ `messages`; xem danh sách trong [Danh mục và tích hợp mô hình](../models.md).
 
 :::tip Không muốn thiết lập thủ công?
-ZAI cung cấp [công cụ quản lý khóa](./key-tool.md) trên máy tính, giúp quản lý tập trung các API key và thiết lập kết nối cho bạn. [Đến phần tải xuống](./key-tool.md#download)
+ZAI cung cấp [công cụ quản lý khóa](./key-tool.mdx) trên máy tính, giúp quản lý tập trung các API key và thiết lập kết nối cho bạn. [Đến phần tải xuống](./key-tool.mdx#download)
 :::
 
 :::note Biến môi trường không có tác dụng trong ứng dụng máy tính

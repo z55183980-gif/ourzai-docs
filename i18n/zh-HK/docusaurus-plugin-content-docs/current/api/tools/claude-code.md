@@ -12,7 +12,7 @@ update_docs: none
 Claude Code 透過 Anthropic Messages 接口調用模型，只能選開放 `messages` 的模型，在[模型目錄與接入](../models.md)裡查看。本頁適用於命令列版 Claude Code；在 Claude 桌面應用程式裡使用 Code，見 [Claude 桌面版](./claude-desktop.md)。
 
 :::tip 不想手動配置？
-ZAI 提供桌面端的[密鑰管理工具](./key-tool.md)，用來集中管理 API 密鑰並配置接入。[前往下載](./key-tool.md#download)
+ZAI 提供桌面端的[密鑰管理工具](./key-tool.mdx)，用來集中管理 API 密鑰並配置接入。[前往下載](./key-tool.mdx#download)
 :::
 
 ## 用環境變數臨時接入 {#env}

@@ -7,13 +7,27 @@ sidebar_position: 7
 update_docs: none
 ---
 
+import KeyToolDownload from "@site/src/components/KeyToolDownload";
+
 # Key management tool {#key-tool}
 
 The key management tool is a desktop app from ZAI. It keeps your API keys in one place and sets up ZAI API access for Claude and Codex, so you do not have to edit configuration files by hand. You still create keys under **API keys** in the [developer console](https://ourzai.com/console).
 
 ## Download {#download}
 
-[Open the download page](https://ourzai.com/tools/key-manager) to choose Windows or macOS.
+<KeyToolDownload keysLabel="Keys" previewLabel="App preview">
+
+[For Windows · v0.2.6](https://ourzai.com/downloads/key-manager/0.2.6/zAI-Key-Manager_Windows_x64-setup.exe)
+
+Windows · x64
+
+[For macOS · v0.2.6](https://ourzai.com/downloads/key-manager/0.2.6/zAI-Key-Manager_macOS.dmg)
+
+macOS 12+ · Intel / Apple Silicon
+
+[Source on GitHub](https://github.com/z55183980-gif/ourzai-keytool)
+
+</KeyToolDownload>
 
 After installation, sign in to import keys or add one manually, then choose a client and model to launch. Install Claude or Codex separately.
 

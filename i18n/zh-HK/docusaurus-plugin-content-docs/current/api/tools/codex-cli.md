@@ -12,7 +12,7 @@ update_docs: none
 Codex 透過 Responses 接口調用模型，要選開放 `responses` 的模型，在[模型目錄與接入](../models.md)裡查看。本頁適用於命令列版 Codex；Codex 桌面應用程式見 [Codex 桌面版](./codex-app.md)。
 
 :::tip 不想手動配置？
-ZAI 提供桌面端的[密鑰管理工具](./key-tool.md)，用來集中管理 API 密鑰並配置接入。[前往下載](./key-tool.md#download)
+ZAI 提供桌面端的[密鑰管理工具](./key-tool.mdx)，用來集中管理 API 密鑰並配置接入。[前往下載](./key-tool.mdx#download)
 :::
 
 ## 加入服務商 {#config}
