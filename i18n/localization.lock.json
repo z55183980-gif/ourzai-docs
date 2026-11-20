@@ -105,7 +105,7 @@
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
     "source": "docs/api/tools/key-tool.mdx",
-    "sha256": "a29663062a6209003655148fd3e33a9fae231cf7303338ee104613e67c6d04d9"
+    "sha256": "bdb9880d166e276d68c054174beb769e902b59c213ec499167f8b01bbfff7616"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "docs/api/tools/tools.md",
@@ -289,7 +289,7 @@
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx",
-    "sha256": "03afac8241823afedfde8bd8aeb459aeda8be780d82e61e6826935f8e7bfe472"
+    "sha256": "d17fbc0cac7e1c837fb8ae44924ca286291333d882f657b4e0912cb85984b7fc"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
@@ -473,7 +473,7 @@
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx",
-    "sha256": "03afac8241823afedfde8bd8aeb459aeda8be780d82e61e6826935f8e7bfe472"
+    "sha256": "d17fbc0cac7e1c837fb8ae44924ca286291333d882f657b4e0912cb85984b7fc"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
@@ -657,7 +657,7 @@
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx",
-    "sha256": "03afac8241823afedfde8bd8aeb459aeda8be780d82e61e6826935f8e7bfe472"
+    "sha256": "d17fbc0cac7e1c837fb8ae44924ca286291333d882f657b4e0912cb85984b7fc"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
@@ -841,7 +841,7 @@
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/key-tool.mdx",
-    "sha256": "03afac8241823afedfde8bd8aeb459aeda8be780d82e61e6826935f8e7bfe472"
+    "sha256": "d17fbc0cac7e1c837fb8ae44924ca286291333d882f657b4e0912cb85984b7fc"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/tools.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/tools.md",
