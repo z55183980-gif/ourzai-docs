@@ -47,7 +47,9 @@ Once filled in, you can click **Test connection** to check the connection before
 
 ## Choose models {#models}
 
-By default the app calls `GET /v1/models` to discover models, and only puts model IDs it recognizes as Claude models in the model picker. If the model you want is not in the picker, add a model ID that offers `messages` to the model list in the configuration window, entered exactly.
+When the model list in the configuration window is empty, the app calls `GET /v1/models` to discover models, and only puts model IDs it recognizes as Claude models in the model picker. Claude models the platform adds later appear in the picker the next time the app starts.
+
+Once you enter model IDs in the model list, the app stops discovering models and the picker shows only the models in the list. To see every available model, clear the list and apply the configuration. Fill in the list only when you want to limit the picker to a few models or the model you want is missing, entering model IDs that offer `messages` exactly.
 
 ## Apply the configuration {#apply}
 
@@ -58,6 +60,7 @@ If the **Developer** menu is gone when you want to make changes again, turn Deve
 ## Troubleshooting {#faq}
 
 - **The model picker is empty**: check that the key is correct, or add model IDs manually as described in [Choose models](#models).
+- **The picker shows only some models**: model IDs were entered in the model list in the configuration window, so the app shows only those models. Clear the list to turn discovery back on, or add the model IDs you want to the list.
 - **401**: the Gateway API key is wrong, or Gateway auth scheme is not **Bearer**.
 - **404 or "model isn't available"**: the model ID is misspelled, or the model does not offer the `messages` endpoint.
 

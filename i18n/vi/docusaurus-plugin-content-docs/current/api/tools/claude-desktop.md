@@ -47,7 +47,9 @@ Sau khi điền xong, bạn có thể nhấn **Test connection** để kiểm tr
 
 ## Chọn model {#models}
 
-Theo mặc định, ứng dụng gọi `GET /v1/models` để tìm model và chỉ đưa vào bộ chọn model những ID mà nó nhận ra là model Claude. Nếu model bạn muốn không có trong bộ chọn, hãy thêm thủ công một ID model hỗ trợ `messages` vào danh sách model trong cửa sổ cấu hình, nhập đúng nguyên văn.
+Khi danh sách model trong cửa sổ cấu hình để trống, ứng dụng gọi `GET /v1/models` để tìm model và chỉ đưa vào bộ chọn model những ID mà nó nhận ra là model Claude. Các model Claude mà nền tảng thêm sau này sẽ xuất hiện trong bộ chọn ở lần khởi động tiếp theo của ứng dụng.
+
+Khi bạn đã nhập ID model vào danh sách model, ứng dụng ngừng tự tìm model và bộ chọn chỉ hiển thị các model trong danh sách. Để thấy mọi model khả dụng, hãy xóa trống danh sách rồi áp dụng cấu hình. Chỉ điền danh sách khi bạn muốn giới hạn bộ chọn ở vài model hoặc khi thiếu model bạn cần, nhập đúng nguyên văn ID model hỗ trợ `messages`.
 
 ## Áp dụng cấu hình {#apply}
 
@@ -58,6 +60,7 @@ Nếu menu **Developer** biến mất khi bạn muốn thay đổi lần nữa, 
 ## Xử lý sự cố {#faq}
 
 - **Bộ chọn model trống**: kiểm tra key có đúng không, hoặc thêm ID model thủ công như trong [Chọn model](#models).
+- **Bộ chọn chỉ hiển thị một số model**: danh sách model trong cửa sổ cấu hình đã được nhập ID thủ công, nên ứng dụng chỉ hiển thị các model đó. Xóa trống danh sách để bật lại tính năng tự tìm, hoặc thêm ID model bạn cần vào danh sách.
 - **401**: Gateway API key sai, hoặc Gateway auth scheme không phải **Bearer**.
 - **404 hoặc "model không khả dụng"**: ID model bị viết sai, hoặc model không hỗ trợ endpoint `messages`.
 

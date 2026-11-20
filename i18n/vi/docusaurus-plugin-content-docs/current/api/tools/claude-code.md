@@ -50,6 +50,16 @@ Trong Windows PowerShell, đặt các biến tương tự bằng cú pháp `$env
 
 Tệp này lưu key ở dạng văn bản thuần. Đừng commit nó vào kho mã hay chia sẻ cho người khác.
 
+## Hiển thị mọi model trong bộ chọn model {#model-discovery}
+
+Theo mặc định, bộ chọn `/model` của Claude Code chỉ liệt kê các model có sẵn trong ứng dụng, không đọc danh mục model của ZAI API, nên các model Claude khác trên nền tảng không xuất hiện ở đó. Để bộ chọn liệt kê các model Claude mà nền tảng cung cấp với `messages`, hãy đặt thêm một biến môi trường, hoặc thêm nó vào trường `env` của `settings.json`:
+
+```bash
+export CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY="1"
+```
+
+Khi bật, mỗi lần khởi động Claude Code sẽ gọi `https://api.ourzai.com/v1/models` và thêm vào bộ chọn những model có ID chứa `claude`. Model trùng với mục có sẵn sẽ không xuất hiện hai lần. Khởi động lại Claude Code sau khi thay đổi. Nếu không bật, bạn vẫn có thể chuyển model bằng cách gõ `/model <model ID>` trong phiên làm việc.
+
 ## Lưu ý {#notes}
 
 - Không thêm `/v1` vào `ANTHROPIC_BASE_URL`: Claude Code tự nối thêm `/v1/messages`.

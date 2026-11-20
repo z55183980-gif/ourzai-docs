@@ -50,6 +50,16 @@ To avoid setting the variables every time, put them in the `env` field of `~/.cl
 
 This file stores your key in plain text. Do not commit it to a code repository or share it.
 
+## Show every model in the model picker {#model-discovery}
+
+By default, the Claude Code `/model` picker lists only the models built into the client. It does not read the ZAI API model catalog, so other Claude models on the platform do not appear there. To have the picker list the Claude models the platform offers with `messages`, set one more environment variable, or add it to the `env` field of `settings.json`:
+
+```bash
+export CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY="1"
+```
+
+With it on, Claude Code requests `https://api.ourzai.com/v1/models` each time it starts and adds models whose IDs contain `claude` to the picker. A model that matches a built-in entry does not appear twice. Restart Claude Code after the change. Without it, you can still switch by typing `/model <model ID>` in a session.
+
 ## Notes {#notes}
 
 - Leave `/v1` out of `ANTHROPIC_BASE_URL`: Claude Code appends `/v1/messages` itself.

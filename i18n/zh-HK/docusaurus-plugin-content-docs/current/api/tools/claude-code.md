@@ -50,6 +50,16 @@ Windows PowerShell 用 `$env:名稱 = "值"` 的寫法設定同樣的變數。�
 
 這個檔案以明文儲存密鑰，不要提交到程式碼倉庫或分享給他人。
 
+## 在模型選擇器裡顯示全部模型 {#model-discovery}
+
+Claude Code 的 `/model` 模型選擇器預設只列出客戶端內建的型號，不會讀取 ZAI API 的模型目錄，所以平台上的其他 Claude 模型不會出現在裡面。要讓選擇器列出平台開放 `messages` 的 Claude 模型，再設定一個環境變數，或把它加進 `settings.json` 的 `env` 欄位：
+
+```bash
+export CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY="1"
+```
+
+開啟後，Claude Code 每次啟動時請求 `https://api.ourzai.com/v1/models`，把 ID 中帶 `claude` 的模型加進選擇器，與內建型號相同的模型不會重複出現。改完需要重新啟動 Claude Code。不開啟也可以在對話裡輸入 `/model <模型 ID>` 直接切換。
+
 ## 注意事項 {#notes}
 
 - `ANTHROPIC_BASE_URL` 不帶 `/v1`：Claude Code 會自己拼接 `/v1/messages`。

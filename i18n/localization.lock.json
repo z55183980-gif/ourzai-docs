@@ -81,11 +81,11 @@
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "docs/api/tools/claude-code.md",
-    "sha256": "25761ce22b765db8a7656fcd989841fb1528ca4ce95ded15c277c46404e75d95"
+    "sha256": "ba66994b9a8f5422d40367ce814e6fdd940a31084504b100cfee8f81b7177231"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "docs/api/tools/claude-desktop.md",
-    "sha256": "f5a628fcab2079e351c785d32c7801481f41aa7d999238e7d3259daf9950b482"
+    "sha256": "2a65614c3f72cfc03bd1fc96934765d264c18b87798d19f1d9f99bd39f507df7"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "docs/api/tools/cline.md",
@@ -265,11 +265,11 @@
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
-    "sha256": "29f9ad6c17633c73b0cc3abd8fbd9053818044e9f0d8d4bebb3bd192a68bdbe0"
+    "sha256": "08de6ffdbb7fe2947b9d4529398b5460e69584ded361050bbda364569e443f18"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "ce5bd259df0b8e93db15802cc3de08b439e47fef4fe4540f0eaca17c8abc1266"
+    "sha256": "7282745e0e3987958dab8b1800a0aff0ce1426ca7485862574d3038847d3f6b7"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -449,11 +449,11 @@
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
-    "sha256": "29f9ad6c17633c73b0cc3abd8fbd9053818044e9f0d8d4bebb3bd192a68bdbe0"
+    "sha256": "08de6ffdbb7fe2947b9d4529398b5460e69584ded361050bbda364569e443f18"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "ce5bd259df0b8e93db15802cc3de08b439e47fef4fe4540f0eaca17c8abc1266"
+    "sha256": "7282745e0e3987958dab8b1800a0aff0ce1426ca7485862574d3038847d3f6b7"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -633,11 +633,11 @@
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
-    "sha256": "29f9ad6c17633c73b0cc3abd8fbd9053818044e9f0d8d4bebb3bd192a68bdbe0"
+    "sha256": "08de6ffdbb7fe2947b9d4529398b5460e69584ded361050bbda364569e443f18"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "ce5bd259df0b8e93db15802cc3de08b439e47fef4fe4540f0eaca17c8abc1266"
+    "sha256": "7282745e0e3987958dab8b1800a0aff0ce1426ca7485862574d3038847d3f6b7"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",
@@ -817,11 +817,11 @@
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/claude-code.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-code.md",
-    "sha256": "29f9ad6c17633c73b0cc3abd8fbd9053818044e9f0d8d4bebb3bd192a68bdbe0"
+    "sha256": "08de6ffdbb7fe2947b9d4529398b5460e69584ded361050bbda364569e443f18"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/claude-desktop.md",
-    "sha256": "ce5bd259df0b8e93db15802cc3de08b439e47fef4fe4540f0eaca17c8abc1266"
+    "sha256": "7282745e0e3987958dab8b1800a0aff0ce1426ca7485862574d3038847d3f6b7"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/api/tools/cline.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/api/tools/cline.md",

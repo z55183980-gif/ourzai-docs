@@ -50,6 +50,16 @@ Para no definir las variables cada vez, ponlas en el campo `env` de `~/.claude/s
 
 Este archivo guarda tu clave en texto plano. No lo subas a un repositorio de código ni lo compartas.
 
+## Mostrar todos los modelos en el selector {#model-discovery}
+
+Por defecto, el selector `/model` de Claude Code solo muestra los modelos integrados en el cliente. No lee el catálogo de modelos de la API de ZAI, así que los demás modelos Claude de la plataforma no aparecen en él. Para que el selector muestre los modelos Claude que la plataforma ofrece con `messages`, define una variable de entorno más, o añádela al campo `env` de `settings.json`:
+
+```bash
+export CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY="1"
+```
+
+Con la variable activada, Claude Code consulta `https://api.ourzai.com/v1/models` cada vez que se inicia y añade al selector los modelos cuyo ID contiene `claude`. Un modelo que coincide con una entrada integrada no aparece dos veces. Reinicia Claude Code después del cambio. Sin ella, puedes cambiar de modelo escribiendo `/model <model ID>` en una sesión.
+
 ## Notas {#notes}
 
 - No añadas `/v1` a `ANTHROPIC_BASE_URL`: Claude Code añade `/v1/messages` por su cuenta.
