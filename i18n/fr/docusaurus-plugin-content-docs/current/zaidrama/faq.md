@@ -23,6 +23,8 @@ Cet article couvre les questions les plus courantes concernant les comptes, la p
 
 Sur la page d'accueil, cliquez sur « Commencer à créer », inscrivez-vous ou connectez-vous avec un compte de plateforme unifié, puis accédez à la page d'accueil. Saisissez dans le champ de saisie la vidéo que vous souhaitez réaliser, ou joignez un roman, un script et des images de référence. L'envoi du premier message crée un projet et vous amène à la page du projet. Cette étape n'engendre aucun frais.
 
+Pour utiliser l’application web dans sa propre fenêtre, sélectionnez **Get the app** sur la page d’accueil. Confirmez l’installation dans le navigateur ou suivez les étapes manuelles affichées. Après l’installation, sélectionnez **Open app** pour la lancer. Si elle ne s’ouvre pas, choisissez **Install again** dans la boîte de dialogue.
+
 ### Comment se connecter ? Que faire en cas d'oubli du mot de passe ? {#default-login}
 
 - La boîte de dialogue de connexion prend en charge la connexion par e-mail ou nom d'utilisateur. Il n'y a pas de compte par défaut ; vous devez d'abord vous inscrire.

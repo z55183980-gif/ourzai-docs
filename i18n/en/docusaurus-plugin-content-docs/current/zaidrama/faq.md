@@ -23,6 +23,8 @@ This article covers the most common account, production, and download questions 
 
 On the landing page, click "Start Creating", register or log in with a ZAI account, then enter the home page. Type what video you want to make in the input box, or attach a novel, script, and reference images. Sending the first message creates a project and takes you to the project page. This step does not incur any charges.
 
+To use the web app in its own window, select **Get the app** on the landing page. Confirm the browser’s install prompt or follow the manual steps shown for your browser. Once installed, select **Open app** to launch it. If it does not open, choose **Install again** in the dialog.
+
 ### How do I log in? What if I forget my password? {#default-login}
 
 - The login dialog supports email or username login. There is no default account; you need to register first.

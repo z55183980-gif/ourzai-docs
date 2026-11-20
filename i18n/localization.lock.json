@@ -153,7 +153,7 @@
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
     "source": "docs/zaidrama/faq.md",
-    "sha256": "708654c6ed6c8e972c8ffcad4be382e4220437e3d5f0ca48db3cfee9914f1d49"
+    "sha256": "367ab770e3cbaf144db0d391cae78d954197f5bd77da7b272d195ea422e08449"
   },
   "i18n/zh-HK/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
     "source": "docs/zaidrama/getting-started.md",
@@ -337,7 +337,7 @@
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/faq.md",
-    "sha256": "8bd27becde5ff62a487666624118461c3b20aa5037d4f9fa4d426ea33f5631fb"
+    "sha256": "06aabffd3b9a619ea7126306514c55be56f11dab48da8625b805da045cab747e"
   },
   "i18n/fr/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md",
@@ -521,7 +521,7 @@
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/faq.md",
-    "sha256": "8bd27becde5ff62a487666624118461c3b20aa5037d4f9fa4d426ea33f5631fb"
+    "sha256": "06aabffd3b9a619ea7126306514c55be56f11dab48da8625b805da045cab747e"
   },
   "i18n/vi/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md",
@@ -705,7 +705,7 @@
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/faq.md",
-    "sha256": "8bd27becde5ff62a487666624118461c3b20aa5037d4f9fa4d426ea33f5631fb"
+    "sha256": "06aabffd3b9a619ea7126306514c55be56f11dab48da8625b805da045cab747e"
   },
   "i18n/ja/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md",
@@ -889,7 +889,7 @@
   },
   "i18n/es/docusaurus-plugin-content-docs/current/zaidrama/faq.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/faq.md",
-    "sha256": "8bd27becde5ff62a487666624118461c3b20aa5037d4f9fa4d426ea33f5631fb"
+    "sha256": "06aabffd3b9a619ea7126306514c55be56f11dab48da8625b805da045cab747e"
   },
   "i18n/es/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md": {
     "source": "i18n/en/docusaurus-plugin-content-docs/current/zaidrama/getting-started.md",

@@ -23,6 +23,8 @@ Este artículo cubre las preguntas más comunes sobre cuentas, producción y des
 
 En la página de inicio, haz clic en «Comenzar a crear», regístrate o inicia sesión con una cuenta unificada de la plataforma y entra en la página principal. Escribe en el cuadro de entrada qué vídeo quieres hacer o adjunta una novela, un guion e imágenes de referencia. Al enviar el primer mensaje se crea un proyecto y accedes a su página. Este paso no genera ningún cargo.
 
+Para usar la aplicación web en su propia ventana, selecciona **Get the app** en la página de inicio. Confirma la instalación en el navegador o sigue los pasos manuales que aparezcan. Después, selecciona **Open app** para abrirla. Si no se abre, elige **Install again** en el cuadro de diálogo.
+
 ### ¿Cómo inicio sesión? ¿Qué hago si olvido mi contraseña? {#default-login}
 
 - El cuadro de inicio de sesión admite entrar con correo electrónico o nombre de usuario. No hay una cuenta predeterminada; primero debes registrarte.

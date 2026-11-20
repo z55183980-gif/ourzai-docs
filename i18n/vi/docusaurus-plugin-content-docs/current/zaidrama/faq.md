@@ -23,6 +23,8 @@ Bài viết này tổng hợp các câu hỏi thường gặp nhất về tài k
 
 Trên trang đích, hãy nhấp vào "Bắt đầu sáng tạo", đăng ký hoặc đăng nhập bằng tài khoản nền tảng hợp nhất, sau đó vào trang chủ. Nhập loại video bạn muốn làm vào ô nhập liệu, hoặc đính kèm tiểu thuyết, kịch bản và ảnh tham chiếu. Gửi tin nhắn đầu tiên sẽ tạo một dự án và đưa bạn đến trang dự án. Bước này không phát sinh bất kỳ khoản phí nào.
 
+Để dùng ứng dụng web trong cửa sổ riêng, hãy chọn **Get the app** trên trang giới thiệu. Xác nhận cài đặt khi trình duyệt hỏi hoặc làm theo các bước thủ công trên màn hình. Sau khi cài đặt, chọn **Open app** để mở ứng dụng. Nếu ứng dụng không mở, hãy chọn **Install again** trong hộp thoại.
+
 ### Làm sao để đăng nhập? Quên mật khẩu thì phải làm gì? {#default-login}
 
 - Hộp thoại đăng nhập hỗ trợ đăng nhập bằng email hoặc tên người dùng. Không có tài khoản mặc định; bạn cần đăng ký trước.
