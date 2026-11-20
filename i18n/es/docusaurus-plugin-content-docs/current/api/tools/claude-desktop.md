@@ -47,7 +47,9 @@ Cuando lo hayas rellenado, puedes hacer clic en **Test connection** para comprob
 
 ## Elegir modelos {#models}
 
-Por defecto, la aplicación llama a `GET /v1/models` para descubrir los modelos y solo pone en el selector los ID que reconoce como modelos Claude. Si el modelo que quieres no está en el selector, añade a la lista de modelos de la ventana de configuración un ID de modelo que ofrezca `messages`, escrito exactamente igual.
+Cuando la lista de modelos de la ventana de configuración está vacía, la aplicación llama a `GET /v1/models` para descubrir los modelos y solo pone en el selector los ID que reconoce como modelos Claude. Los modelos Claude que la plataforma añada más adelante aparecen en el selector la próxima vez que se inicie la aplicación.
+
+En cuanto escribes ID de modelos en la lista, la aplicación deja de descubrir modelos y el selector muestra solo los de la lista. Para ver todos los modelos disponibles, vacía la lista y aplica la configuración. Rellena la lista solo si quieres limitar el selector a unos pocos modelos o falta el modelo que quieres, escribiendo exactamente igual ID de modelos que ofrezcan `messages`.
 
 ## Aplicar la configuración {#apply}
 
@@ -58,6 +60,7 @@ Si el menú **Developer** ha desaparecido cuando quieras volver a cambiar algo, 
 ## Solución de problemas {#faq}
 
 - **El selector de modelos está vacío**: comprueba que la clave es correcta, o añade los ID de modelos a mano como se explica en [Elegir modelos](#models).
+- **El selector solo muestra algunos modelos**: hay ID escritos en la lista de modelos de la ventana de configuración, así que la aplicación solo muestra esos modelos. Vacía la lista para volver a activar el descubrimiento, o añade a la lista los ID de los modelos que quieras.
 - **401**: la Gateway API key es incorrecta, o Gateway auth scheme no es **Bearer**.
 - **404 o «el modelo no está disponible»**: el ID de modelo está mal escrito, o el modelo no ofrece el endpoint `messages`.
 

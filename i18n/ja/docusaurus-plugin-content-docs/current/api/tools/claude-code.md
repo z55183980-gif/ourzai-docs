@@ -50,6 +50,16 @@ Windows PowerShell では、`$env:NAME = "value"` の形式で同じ変数を設
 
 このファイルにはキーが平文で保存されます。コードリポジトリにコミットしたり、他人と共有したりしないでください。
 
+## モデル選択メニューにすべてのモデルを表示する {#model-discovery}
+
+Claude Code の `/model` モデル選択メニューは、既定ではクライアントに組み込まれたモデルだけを表示し、ZAI API のモデル一覧は読み込みません。そのため、プラットフォーム上のほかの Claude モデルは表示されません。プラットフォームが `messages` で提供する Claude モデルを選択メニューに表示するには、環境変数をもう 1 つ設定するか、`settings.json` の `env` フィールドに追加します。
+
+```bash
+export CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY="1"
+```
+
+有効にすると、Claude Code は起動するたびに `https://api.ourzai.com/v1/models` を呼び出し、ID に `claude` を含むモデルを選択メニューに追加します。組み込みの項目と同じモデルが重複して表示されることはありません。変更後は Claude Code を再起動してください。有効にしない場合でも、セッション内で `/model <model ID>` と入力すれば切り替えられます。
+
 ## 注意点 {#notes}
 
 - `ANTHROPIC_BASE_URL` には `/v1` を付けません。Claude Code が `/v1/messages` を自動で付け加えます。

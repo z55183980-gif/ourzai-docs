@@ -47,7 +47,9 @@ Une fois les champs remplis, vous pouvez cliquer sur **Test connection** pour v�
 
 ## Choisir les modèles {#models}
 
-Par défaut, l'application appelle `GET /v1/models` pour découvrir les modèles et ne place dans le sélecteur que les ID qu'elle reconnaît comme des modèles Claude. Si le modèle voulu n'apparaît pas dans le sélecteur, ajoutez à la liste des modèles de la fenêtre de configuration un ID de modèle qui propose `messages`, saisi tel quel.
+Lorsque la liste des modèles de la fenêtre de configuration est vide, l'application appelle `GET /v1/models` pour découvrir les modèles et ne place dans le sélecteur que les ID qu'elle reconnaît comme des modèles Claude. Les modèles Claude ajoutés plus tard par la plateforme apparaissent dans le sélecteur au prochain démarrage de l'application.
+
+Dès que vous saisissez des ID dans la liste des modèles, l'application cesse de découvrir les modèles et le sélecteur n'affiche plus que ceux de la liste. Pour voir tous les modèles disponibles, videz la liste et appliquez la configuration. Ne remplissez la liste que pour limiter le sélecteur à quelques modèles ou si le modèle voulu manque, en saisissant tels quels des ID de modèles qui proposent `messages`.
 
 ## Appliquer la configuration {#apply}
 
@@ -58,6 +60,7 @@ Si le menu **Developer** a disparu lorsque vous voulez modifier à nouveau la co
 ## Dépannage {#faq}
 
 - **Le sélecteur de modèles est vide** : vérifiez que la clé est correcte, ou ajoutez les ID de modèles manuellement comme décrit dans [Choisir les modèles](#models).
+- **Le sélecteur n'affiche qu'une partie des modèles** : des ID ont été saisis dans la liste des modèles de la fenêtre de configuration, donc l'application n'affiche que ces modèles. Videz la liste pour réactiver la découverte, ou ajoutez-y les ID des modèles voulus.
 - **401** : la Gateway API key est erronée, ou Gateway auth scheme n'est pas **Bearer**.
 - **404 ou « modèle indisponible »** : l'ID de modèle est mal orthographié, ou le modèle ne propose pas le point de terminaison `messages`.
 
